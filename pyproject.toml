@@ -1,0 +1,31 @@
+[project]
+name = "grpo-changes"
+version = "0.1.0"
+description = "A project using Hugging Face datasets and transformers"
+requires-python = ">=3.8"
+dependencies = [
+    "datasets",
+    "transformers",
+    "torch",
+    "numpy",
+    "pandas",
+    "typing_extensions",
+    "scikit-learn",
+    "vllm",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages=["src"]
+
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "black",
+    "flake8",
+    "mypy",
+] 
