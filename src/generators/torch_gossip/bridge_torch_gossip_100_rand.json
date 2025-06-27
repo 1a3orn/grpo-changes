@@ -1,0 +1,402 @@
+[
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3, 12, 13 and 16. Exactly 2 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "44"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8, 11 and 22. Exactly 2 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "31"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7, 13, 14 and 15. Exactly 3 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "44"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 8 and 17. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "29"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 10 and 10. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "10"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 1, 11, 12 and 12. Exactly 2 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "25"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6 and 20. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "17"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7, 9 and 17. Exactly 2 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "23"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7 and 13. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "11"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8, 11, 16 and 19. Exactly 2 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "52"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7 and 11. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "9"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 10 and 14. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "11"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7, 9, 9 and 11. Exactly 2 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "25"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8, 17, 18 and 18. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "61"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8, 15 and 19. Exactly 2 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "38"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 17 and 21. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "18"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 17 and 19. Exactly 2 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "30"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 5, 9 and 15. Exactly 2 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "26"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 15 and 20. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "19"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 8 and 11. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "20"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4 and 7. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "5"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3, 10, 13 and 15. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "42"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 2, 11 and 17. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "28"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7, 9, 10 and 12. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "43"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 13 and 15. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "13"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8 and 14. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "13"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 7 and 19. Exactly 2 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "24"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 2, 8, 15 and 18. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "41"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 9, 15 and 15. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "40"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 10, 13 and 15. Exactly 3 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "26"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3 and 21. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "19"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 6, 8 and 10. Exactly 2 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "24"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7 and 14. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "11"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3 and 7. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "4"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 9, 13, 17 and 20. Exactly 3 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "45"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4 and 15. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "14"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 10, 12 and 18. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "44"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 5, 8, 16 and 19. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "38"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7, 15, 16 and 19. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "60"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 1, 12 and 20. Exactly 2 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "25"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 21 and 22. Exactly 2 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "43"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4 and 12. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "9"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 2, 8 and 10. Exactly 2 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "10"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 6, 11 and 21. Exactly 3 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "28"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 5 and 13. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "9"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6 and 7. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "6"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8, 9, 13 and 14. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "43"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 5 and 11. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "10"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3, 11, 15 and 21. Exactly 2 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "37"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3, 12 and 19. Exactly 2 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "32"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 2, 4, 11 and 17. Exactly 2 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "27"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 1, 13, 18 and 18. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "45"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 10 and 13. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "11"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 18, 19 and 23. Exactly 3 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "52"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 11 and 20. Exactly 2 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "33"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7, 9, 10 and 19. Exactly 3 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "28"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6 and 11. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "9"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 1, 4, 13 and 17. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "27"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3, 16, 17 and 18. Exactly 2 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "54"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 13 and 16. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "31"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3, 5, 13 and 24. Exactly 1 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "33"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8, 8, 13 and 16. Exactly 2 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "40"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 2, 15 and 19. Exactly 2 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "30"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 10 and 17. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "16"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 7, 16 and 19. Exactly 3 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "36"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 1, 6, 10 and 22. Exactly 2 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "21"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 13, 18 and 20. Exactly 2 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "43"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 8, 12 and 20. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "44"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4 and 13. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "9"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 14, 16, 18 and 20. Exactly 2 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "78"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 2, 3, 6 and 19. Exactly 3 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "25"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 7, 14 and 22. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "43"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 5 and 17. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "13"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 5 and 9. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "8"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8, 10, 16 and 16. Exactly 3 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "34"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7, 17 and 19. Exactly 2 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "33"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3, 6, 9 and 10. Exactly 2 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "27"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 7, 10, 13 and 20. Exactly 1 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "46"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3 and 19. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "17"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 6, 11 and 16. Exactly 3 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "30"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8, 13 and 17. Exactly 1 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "33"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 17 and 18. Exactly 2 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "37"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6 and 11. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "7"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 5 and 13. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "12"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 4, 10, 11 and 15. Exactly 1 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "34"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 7 and 18. Exactly 1 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "26"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6 and 15. Exactly 1 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "10"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 9, 18 and 21. Exactly 3 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "35"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 9, 10 and 17. Exactly 1 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "34"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 2 and 7. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "4"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 11, 13, 14 and 22. Exactly 1 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "63"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 2, 14 and 18. Exactly 2 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "26"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 6, 14 and 17. Exactly 2 of them are exaggerating by **adding 2 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "33"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 5, 13 and 14. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "29"
+  },
+  {
+    "question": "There are 3 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 5, 12 and 14. Exactly 2 of them are exaggerating by **adding 4 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "23"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 16 and 17. Exactly 1 of them are exaggerating by **adding 3 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "16"
+  },
+  {
+    "question": "There are 2 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 8 and 17. Exactly 1 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "16"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 2, 7, 11 and 11. Exactly 1 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "19"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 3, 10, 16 and 19. Exactly 2 of them are exaggerating by **adding 1 minute** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "48"
+  },
+  {
+    "question": "There are 4 people who must cross a narrow bridge at night. They have one torch, and at most two can cross at a time. The torch must be carried whenever someone crosses, and when two cross together they move at the pace of the slower person.\n\nTheir *claimed* individual crossing times (in minutes) are: 5, 16, 23 and 24. Exactly 3 of them are exaggerating by **adding 5 minutes** to their real time. Everyone else is telling the truth.\n\nWhat is the *minimum* total time, in minutes, that this crossing could actually take?",
+    "canonical_answer": "53"
+  }
+]

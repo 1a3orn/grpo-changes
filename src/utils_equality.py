@@ -31,6 +31,14 @@ def compare_strings(a: str, b: str) -> bool:
             return True
     except Exception as e:
         pass
+
+    # Then try after making lowercase
+    try:
+        lowercase_equals = eval(a.lower()) == eval(b.lower())   
+        if lowercase_equals:
+            return True
+    except Exception as e:
+        pass
     
     # Then try comparing with a "normalize"
 

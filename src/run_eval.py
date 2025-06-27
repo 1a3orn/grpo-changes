@@ -1,15 +1,38 @@
 import json
 import random
+import argparse
+import re
 from dataset_loader import GenericDatasetLoader
 from qwen_generator import QwenGenerator, GenerationConfig
-from utils_tags import TagParser
-from utils_equality import compare_numeric_strings
+from utils_equality import compare_strings
+
+
+class BoxedParser:
+    """Simple parser to extract content from \\boxed{...} tags."""
+    
+    def __init__(self):
+        self.boxed_pattern = re.compile(r'\\boxed\{([^}]*)\}')
+    
+    def parse(self, text):
+        """
+        Parse text and extract content from \\boxed{...} tags.
+        
+        Returns:
+            tuple: (parsed_content, error_message)
+            - parsed_content: The content inside \\boxed{...} if found, None otherwise
+            - error_message: Error message if no \\boxed{...} found, None otherwise
+        """
+        match = self.boxed_pattern.search(text)
+        if match:
+            return match.group(1), None
+        else:
+            return None, "No \\boxed{...} tag found in the response"
 
 
 # Hyperparameters - easily configurable at the top level
 HYPERPARAMS = {
-    "temperature": 0.75,
-    "max_tokens": 3000,
+    "temperature": 0.85,
+    "max_tokens": 12000,
     "top_p": 0.95,
     "frequency_penalty": 0.0,
     "presence_penalty": 0.0,
@@ -20,8 +43,7 @@ SYSTEM_PROMPT = """You are an intelligent assistant.
 
 You will be given a question and you will need to answer it in the following format:
 First, think step-by-step.
-Then, give your answer inside a \\boxed{...} tag, and format your answer as a Python list.
-So the answer should be like this: \\boxed{['item1', 'item2', 'item3', ...]}.
+Then, give your answer inside a \\boxed{...} tag.
 
 Make sure to:
 - Break down complex problems into simpler steps
@@ -31,24 +53,38 @@ Make sure to:
 """
 
 # Evaluation settings
-BATCH_SIZE = 8  # Process 4 questions at a time
-NUM_RUNS_PER_QUESTION = 16  # Number of times to ask each question
+BATCH_SIZE = 8  # Process 8 questions at a time
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Run evaluation on a dataset with Qwen model')
+    parser.add_argument('--num-runs', type=int, default=8, 
+                       help='Number of runs per question (default: 8)')
+    parser.add_argument('--datasource', type=str, default="src/generators/zebra/zebra_puzzles.json",
+                       help='Path to the dataset file (default: src/generators/zebra/zebra_puzzles.json)')
+    parser.add_argument('--num-questions', type=int, default=48,
+                       help='Number of questions to evaluate (default: 48)')
+    parser.add_argument('--output-file', type=str, default="eval_results_48.json",
+                       help='Output file path (default: eval_results.json)')
+    return parser.parse_args()
 
 
 def main():
-    # Load 500 questions from GSM8K
-    N = 100
+    # Parse command-line arguments
+    args = parse_arguments()
+    
+    # Load questions from specified datasource
     loader = GenericDatasetLoader()
-    data = loader.load_from_jsonl("src/generators/zebra/zebra_puzzles.json")
-    if len(data) > N:
-        data = random.sample(data, N)
+    data = loader.load_from_json(args.datasource)
+    if len(data) > args.num_questions:
+        data = random.sample(data, args.num_questions)
     else:
-        data = data[:N]
+        data = data[:args.num_questions]
 
     # Initialize Qwen generator with custom config
     qwen = QwenGenerator(system_prompt=SYSTEM_PROMPT)
     generation_config = GenerationConfig(**HYPERPARAMS)
-    tag_parser = TagParser(["think", "answer"])
+    boxed_parser = BoxedParser()
 
     results = []
     total_correct = 0
@@ -60,7 +96,8 @@ def main():
         
         print(f"Processing batch {batch_start//BATCH_SIZE + 1}/{(len(data) + BATCH_SIZE - 1)//BATCH_SIZE}")
         
-        for run in range(NUM_RUNS_PER_QUESTION):  # 16 runs per question
+        for run in range(args.num_runs):  # Use command-line argument for number of runs
+            print(f"Run {run + 1}/{args.num_runs}")
             # Extract questions for this batch
             questions = [item["question"] for item in batch_data]
             
@@ -85,14 +122,14 @@ def main():
                         "correctness": []
                     })
                 
-                # Parse Qwen output
-                parsed, error = tag_parser(output)
-                results[batch_start + i]["parsed_outputs"].append({"parsed": parsed, "error": error})
+                # Parse Qwen output using BoxedParser
+                parsed_content, error = boxed_parser.parse(output)
+                results[batch_start + i]["parsed_outputs"].append({"parsed": parsed_content, "error": error})
                 results[batch_start + i]["qwen_outputs"].append(output)
 
                 # Check correctness
-                if parsed and "answer" in parsed:
-                    is_correct = compare_numeric_strings(parsed["answer"], canonical_answer)
+                if parsed_content:
+                    is_correct = compare_strings(parsed_content, canonical_answer)
                 else:
                     is_correct = False
                 results[batch_start + i]["correctness"].append(is_correct)
@@ -105,7 +142,7 @@ def main():
         print(f"  Processed {batch_end} questions. Correct so far: {total_correct}/{total_attempts}")
 
     # Print final accuracy
-    print(f"\nQwen accuracy: {total_correct}/{total_attempts} = {total_correct/total_attempts:.2%}")
+    print(f"\Accuracy: {total_correct}/{total_attempts} = {total_correct/total_attempts:.2%}")
     print(f"Hyperparameters used: {HYPERPARAMS}")
 
     # Save results with hyperparameters included
@@ -114,15 +151,16 @@ def main():
         "system_prompt": SYSTEM_PROMPT,
         "evaluation_settings": {
             "batch_size": BATCH_SIZE,
-            "num_runs_per_question": NUM_RUNS_PER_QUESTION,
-            "total_questions": len(data)
+            "num_runs_per_question": args.num_runs,
+            "total_questions": len(data),
+            "datasource": args.datasource
         },
         "results": results
     }
     
-    with open("qwen_gsm8k_eval_results.json", "w", encoding="utf-8") as f:
+    with open(args.output_file, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
-    print("Results saved to qwen_gsm8k_eval_results.json")
+    print(f"Results saved to {args.output_file}")
 
 
 if __name__ == "__main__":

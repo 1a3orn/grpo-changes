@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 8.\n  \u2022 The first and third digits add up to 15.\n  \u2022 The first two digits add up to 7.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 The first digit is 3 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "70844"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 5.\n  \u2022 Exactly 4 digits are even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The digits add up to 15.\n  \u2022 The first two digits add up to 10.\n  \u2022 The smallest digit is 0 and the largest is 6.\n  \u2022 The first digit is 3 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "46041"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first two digits add up to 9.\n  \u2022 The first and last digits add up to 9.\n  \u2022 The digits add up to 33.\n  \u2022 The smallest digit is 1 and the largest is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "18888"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first two digits add up to 14.\n  \u2022 The last two digits add up to 8.\n  \u2022 The first and last digits add up to 12.\n  \u2022 Exactly 6 distinct digits appear.\n  \u2022 The digits add up to 32.\n  \u2022 The first and third digits add up to 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "594617"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first two digits add up to 10.\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 The first and last digits add up to 3.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The digits add up to 24.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 The first and third digits add up to 9.\n  \u2022 The last two digits add up to 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "376800"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first two digits add up to 12.\n  \u2022 The smallest digit is 3 and the largest is 9.\n  \u2022 The last two digits add up to 10.\n  \u2022 The digits add up to 31.\n  \u2022 The first and third digits add up to 17.\n  \u2022 The first digit is 5 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "84973"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first and third digits add up to 7.\n  \u2022 The digits add up to 20.\n  \u2022 The smallest digit is 1 and the largest is 8.\n  \u2022 The first digit is 2 greater than the last digit.\n  \u2022 The first two digits add up to 7.\n  \u2022 The first and last digits add up to 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "34481"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 3.\n  \u2022 The first two digits add up to 3.\n  \u2022 The last two digits add up to 10.\n  \u2022 Exactly 1 digit is even.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The digits add up to 22.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "21991"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is even.\n  \u2022 The last two digits add up to 5.\n  \u2022 The smallest digit is 0 and the largest is 7.\n  \u2022 The first and last digits add up to 5.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The digits add up to 22.\n  \u2022 The first and third digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "57550"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first and third digits add up to 5.\n  \u2022 The smallest digit is 2 and the largest is 8.\n  \u2022 The last two digits add up to 13.\n  \u2022 The first and last digits add up to 10.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first two digits add up to 5.\n  \u2022 The digits add up to 27.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "233658"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 digits are even.\n  \u2022 The first digit is 2 greater than the last digit.\n  \u2022 The digits add up to 22.\n  \u2022 The first and third digits add up to 2.\n  \u2022 The last two digits add up to 5.\n  \u2022 The first two digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "280750"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 10.\n  \u2022 The last two digits add up to 8.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 The first and third digits add up to 9.\n  \u2022 The digits add up to 21.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "24708"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The smallest digit is 1 and the largest is 8.\n  \u2022 The first digit is 7 greater than the last digit.\n  \u2022 The last two digits add up to 6.\n  \u2022 The first two digits add up to 12.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first and third digits add up to 16.\n  \u2022 The digits add up to 32.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "848651"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 13.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first digit is 3 smaller than the last digit.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first two digits add up to 5.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The digits add up to 39.\n  \u2022 The first and third digits add up to 13.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "508998"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The smallest digit is 1 and the largest is 5.\n  \u2022 The first two digits add up to 7.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The digits add up to 14.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The first digit is 3 smaller than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "25115"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 2.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The first two digits add up to 5.\n  \u2022 The smallest digit is 0 and the largest is 5.\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 The last two digits add up to 9.\n  \u2022 The digits add up to 18.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "230454"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 The first and third digits add up to 5.\n  \u2022 The first two digits add up to 6.\n  \u2022 The first and last digits add up to 3.\n  \u2022 The smallest digit is 1 and the largest is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "15482"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 16.\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The first and third digits add up to 8.\n  \u2022 The first and last digits add up to 4.\n  \u2022 The last two digits add up to 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "12733"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first two digits add up to 10.\n  \u2022 The digits add up to 19.\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The last two digits add up to 2.\n  \u2022 The first and last digits add up to 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "55702"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The smallest digit is 1 and the largest is 9.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The first and third digits add up to 14.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first two digits add up to 14.\n  \u2022 The first and last digits add up to 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "59912"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first two digits add up to 8.\n  \u2022 The digits add up to 17.\n  \u2022 The smallest digit is 0 and the largest is 7.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first and third digits add up to 14.\n  \u2022 The first digit is 5 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "71702"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 8.\n  \u2022 The first digit is 3 smaller than the last digit.\n  \u2022 The smallest digit is 2 and the largest is 8.\n  \u2022 The first two digits add up to 7.\n  \u2022 The first and third digits add up to 10.\n  \u2022 Exactly 6 distinct digits appear.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "347826"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 0.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The digits add up to 14.\n  \u2022 Exactly 5 digits are even.\n  \u2022 The first and last digits add up to 6.\n  \u2022 The first two digits add up to 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "60800"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 2.\n  \u2022 The last two digits add up to 9.\n  \u2022 The first digit is 4 smaller than the last digit.\n  \u2022 The smallest digit is 1 and the largest is 5.\n  \u2022 The digits add up to 13.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "12145"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 5.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The digits add up to 21.\n  \u2022 The first two digits add up to 7.\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first and third digits add up to 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "340914"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is even.\n  \u2022 The smallest digit is 3 and the largest is 9.\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The last two digits add up to 12.\n  \u2022 The digits add up to 41.\n  \u2022 The first two digits add up to 18.\n  \u2022 The first and third digits add up to 15.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "996539"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 22.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The first two digits add up to 13.\n  \u2022 The first digit is 8 greater than the last digit.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first and third digits add up to 17.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "85900"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first two digits add up to 6.\n  \u2022 The first and third digits add up to 8.\n  \u2022 The first and last digits add up to 5.\n  \u2022 The last two digits add up to 7.\n  \u2022 The smallest digit is 1 and the largest is 9.\n  \u2022 Exactly 5 distinct digits appear.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "424961"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 36.\n  \u2022 Exactly 4 digits are even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first and last digits are equal.\n  \u2022 The first and third digits add up to 15.\n  \u2022 The first two digits add up to 12.\n  \u2022 The last two digits add up to 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "847818"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 16.\n  \u2022 The digits add up to 30.\n  \u2022 The first and last digits add up to 11.\n  \u2022 The smallest digit is 2 and the largest is 8.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first two digits add up to 8.\n  \u2022 The first and third digits add up to 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "352488"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 2.\n  \u2022 The first and third digits add up to 8.\n  \u2022 The first and last digits add up to 5.\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 The first two digits add up to 5.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The digits add up to 19.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "414811"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 The smallest digit is 1 and the largest is 8.\n  \u2022 The digits add up to 27.\n  \u2022 The first and last digits add up to 5.\n  \u2022 The first digit is 3 smaller than the last digit.\n  \u2022 The last two digits add up to 12.\n  \u2022 The first and third digits add up to 6.\n  \u2022 Exactly 6 distinct digits appear.\n  \u2022 The first two digits add up to 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "125784"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 4.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The first and last digits add up to 12.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The digits add up to 21.\n  \u2022 The first two digits add up to 17.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "89004"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 14.\n  \u2022 The first two digits add up to 6.\n  \u2022 The last two digits add up to 16.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The smallest digit is 1 and the largest is 9.\n  \u2022 The digits add up to 31.\n  \u2022 The first and third digits add up to 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "514579"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 Exactly 6 distinct digits appear.\n  \u2022 The first and last digits add up to 15.\n  \u2022 The first and third digits add up to 17.\n  \u2022 The digits add up to 37.\n  \u2022 The smallest digit is 2 and the largest is 9.\n  \u2022 The last two digits add up to 11.\n  \u2022 The first two digits add up to 11.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "928756"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 8 smaller than the last digit.\n  \u2022 The first and third digits add up to 9.\n  \u2022 The last two digits add up to 9.\n  \u2022 The digits add up to 22.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "14809"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The smallest digit is 4 and the largest is 9.\n  \u2022 The digits add up to 29.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 The first and third digits add up to 9.\n  \u2022 The last two digits add up to 11.\n  \u2022 The first two digits add up to 13.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "49565"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 13.\n  \u2022 The smallest digit is 1 and the largest is 9.\n  \u2022 The digits add up to 24.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first and third digits add up to 9.\n  \u2022 The first two digits add up to 10.\n  \u2022 The first digit is 1 smaller than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "82149"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 25.\n  \u2022 The first digit is 4 smaller than the last digit.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first two digits add up to 5.\n  \u2022 The smallest digit is 1 and the largest is 8.\n  \u2022 The first and third digits add up to 9.\n  \u2022 The last two digits add up to 10.\n  \u2022 The first and last digits add up to 12.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "415528"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 6.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 The first two digits add up to 13.\n  \u2022 The digits add up to 28.\n  \u2022 The first and third digits add up to 13.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "67780"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The first two digits add up to 6.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 The digits add up to 22.\n  \u2022 The last two digits add up to 16.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "60088"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 7.\n  \u2022 The first two digits add up to 7.\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 The first and third digits add up to 12.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 3 digits are even.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "43816"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 14.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first two digits add up to 15.\n  \u2022 The digits add up to 33.\n  \u2022 The smallest digit is 5 and the largest is 9.\n  \u2022 The first and third digits add up to 16.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "96765"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 14.\n  \u2022 The last two digits add up to 7.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The first and last digits add up to 10.\n  \u2022 The first and last digits are equal.\n  \u2022 The first two digits add up to 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "51925"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first two digits add up to 9.\n  \u2022 The smallest digit is 2 and the largest is 5.\n  \u2022 The last two digits add up to 5.\n  \u2022 The first and third digits add up to 9.\n  \u2022 The digits add up to 18.\n  \u2022 The first and last digits add up to 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "54432"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 9.\n  \u2022 The smallest digit is 1 and the largest is 6.\n  \u2022 The last two digits add up to 7.\n  \u2022 The first and third digits add up to 5.\n  \u2022 The digits add up to 18.\n  \u2022 The first two digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "46125"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first two digits add up to 9.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first and last digits add up to 5.\n  \u2022 The first and third digits add up to 10.\n  \u2022 The last two digits add up to 12.\n  \u2022 The first digit is 3 smaller than the last digit.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The digits add up to 35.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "189584"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first and third digits add up to 4.\n  \u2022 The digits add up to 27.\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 5 digits are even.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 The first two digits add up to 10.\n  \u2022 The last two digits add up to 12.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "460584"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 45.\n  \u2022 The first and last digits add up to 13.\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The last two digits add up to 14.\n  \u2022 The first and third digits add up to 16.\n  \u2022 The first two digits add up to 15.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "878895"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first and last digits add up to 11.\n  \u2022 The last two digits add up to 11.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The digits add up to 21.\n  \u2022 The first two digits add up to 6.\n  \u2022 The first and third digits add up to 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "330438"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 4.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The smallest digit is 1 and the largest is 8.\n  \u2022 The first two digits add up to 6.\n  \u2022 The first and last digits are equal.\n  \u2022 The last two digits add up to 11.\n  \u2022 The digits add up to 22.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "331483"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 24.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The last two digits add up to 13.\n  \u2022 The first and third digits add up to 5.\n  \u2022 The smallest digit is 0 and the largest is 7.\n  \u2022 The first digit is 2 smaller than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "56067"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 The first two digits add up to 10.\n  \u2022 The digits add up to 25.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The first and last digits add up to 4.\n  \u2022 Exactly 1 digit is even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The last two digits add up to 6.\n  \u2022 The first and third digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "199033"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 37.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The last two digits add up to 15.\n  \u2022 The first two digits add up to 13.\n  \u2022 The first and third digits add up to 17.\n  \u2022 The first digit is 2 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "85996"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The smallest digit is 1 and the largest is 8.\n  \u2022 The digits add up to 23.\n  \u2022 The first and last digits add up to 7.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 The last two digits add up to 14.\n  \u2022 The first two digits add up to 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "17186"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 10.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The last two digits add up to 17.\n  \u2022 The digits add up to 36.\n  \u2022 The first two digits add up to 13.\n  \u2022 The first digit is 4 smaller than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "496098"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first two digits add up to 7.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first and third digits add up to 16.\n  \u2022 The first digit is 2 greater than the last digit.\n  \u2022 The last two digits add up to 10.\n  \u2022 The digits add up to 32.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "709655"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first and last digits add up to 7.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The last two digits add up to 6.\n  \u2022 The first two digits add up to 11.\n  \u2022 The smallest digit is 0 and the largest is 6.\n  \u2022 The first and third digits add up to 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "652051"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The digits add up to 27.\n  \u2022 The first two digits add up to 14.\n  \u2022 The first and third digits add up to 9.\n  \u2022 The smallest digit is 3 and the largest is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "68337"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 5.\n  \u2022 The first and third digits add up to 4.\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The last two digits add up to 6.\n  \u2022 The smallest digit is 1 and the largest is 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "21233"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first two digits add up to 6.\n  \u2022 The first and last digits add up to 7.\n  \u2022 The first and third digits add up to 5.\n  \u2022 The first digit is 3 smaller than the last digit.\n  \u2022 The smallest digit is 0 and the largest is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "24305"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 15.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 The digits add up to 35.\n  \u2022 The first two digits add up to 8.\n  \u2022 The first and third digits add up to 16.\n  \u2022 The last two digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "808937"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 The digits add up to 20.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 The first and third digits add up to 12.\n  \u2022 The first two digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "46820"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 14.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first and last digits add up to 6.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first and third digits add up to 5.\n  \u2022 The first two digits add up to 9.\n  \u2022 The first digit is 2 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "45122"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 4 smaller than the last digit.\n  \u2022 The first and third digits add up to 3.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The last two digits add up to 6.\n  \u2022 The digits add up to 16.\n  \u2022 The first two digits add up to 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "162115"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 6 greater than the last digit.\n  \u2022 Exactly 5 digits are even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first and third digits add up to 12.\n  \u2022 The last two digits add up to 4.\n  \u2022 The smallest digit is 2 and the largest is 8.\n  \u2022 The digits add up to 25.\n  \u2022 The first two digits add up to 12.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "844522"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 The first and last digits add up to 7.\n  \u2022 The first two digits add up to 11.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first and third digits add up to 10.\n  \u2022 The last two digits add up to 8.\n  \u2022 The digits add up to 30.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "654771"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The smallest digit is 2 and the largest is 7.\n  \u2022 The digits add up to 20.\n  \u2022 The first two digits add up to 11.\n  \u2022 The last two digits add up to 4.\n  \u2022 The first digit is 2 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "47522"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first and last digits add up to 16.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The first digit is 2 greater than the last digit.\n  \u2022 The digits add up to 35.\n  \u2022 The first and third digits add up to 15.\n  \u2022 The first two digits add up to 9.\n  \u2022 Exactly 6 distinct digits appear.\n  \u2022 The last two digits add up to 12.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "906857"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 10.\n  \u2022 The first and last digits add up to 12.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first two digits add up to 11.\n  \u2022 The digits add up to 28.\n  \u2022 The first and last digits are equal.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "65746"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 1.\n  \u2022 The digits add up to 26.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 6 smaller than the last digit.\n  \u2022 The smallest digit is 0 and the largest is 7.\n  \u2022 The last two digits add up to 13.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "160667"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 8.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The smallest digit is 2 and the largest is 7.\n  \u2022 The first two digits add up to 9.\n  \u2022 The first and third digits add up to 6.\n  \u2022 The first and last digits are equal.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "27462"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 digits are even.\n  \u2022 The first and last digits add up to 16.\n  \u2022 The last two digits add up to 15.\n  \u2022 The first and last digits are equal.\n  \u2022 The digits add up to 40.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first two digits add up to 12.\n  \u2022 The first and third digits add up to 12.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "844978"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The digits add up to 39.\n  \u2022 The first two digits add up to 10.\n  \u2022 The smallest digit is 4 and the largest is 9.\n  \u2022 The first and third digits add up to 8.\n  \u2022 The last two digits add up to 18.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "464799"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first and last digits add up to 9.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 The digits add up to 23.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The first and third digits add up to 5.\n  \u2022 The last two digits add up to 10.\n  \u2022 The first two digits add up to 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "213737"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 14.\n  \u2022 The first and last digits add up to 13.\n  \u2022 The smallest digit is 5 and the largest is 8.\n  \u2022 The first two digits add up to 12.\n  \u2022 The first and third digits add up to 12.\n  \u2022 The first digit is 1 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "75586"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 8.\n  \u2022 The first and last digits add up to 2.\n  \u2022 The digits add up to 23.\n  \u2022 Exactly 0 digits are even.\n  \u2022 The first and third digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "15971"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first two digits add up to 10.\n  \u2022 The smallest digit is 1 and the largest is 9.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The digits add up to 27.\n  \u2022 The first and last digits add up to 5.\n  \u2022 The last two digits add up to 10.\n  \u2022 The first digit is 3 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "46791"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 The first and last digits add up to 16.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The last two digits add up to 15.\n  \u2022 The first and third digits add up to 16.\n  \u2022 The digits add up to 39.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "78969"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 4 smaller than the last digit.\n  \u2022 The first and third digits add up to 12.\n  \u2022 The first two digits add up to 11.\n  \u2022 Exactly 6 distinct digits appear.\n  \u2022 The digits add up to 31.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The last two digits add up to 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "389407"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 digits are even.\n  \u2022 The smallest digit is 4 and the largest is 7.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The digits add up to 34.\n  \u2022 The first and last digits add up to 12.\n  \u2022 The first and third digits add up to 13.\n  \u2022 The first two digits add up to 10.\n  \u2022 The last two digits add up to 12.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "647566"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The last two digits add up to 8.\n  \u2022 The digits add up to 29.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 The first digit is 6 greater than the last digit.\n  \u2022 The first two digits add up to 14.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "68780"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 8.\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 The last two digits add up to 6.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The smallest digit is 0 and the largest is 5.\n  \u2022 The first two digits add up to 3.\n  \u2022 The first and third digits add up to 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "30215"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 23.\n  \u2022 The first two digits add up to 16.\n  \u2022 The first and last digits add up to 12.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The smallest digit is 1 and the largest is 9.\n  \u2022 The first and third digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "97133"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first two digits add up to 11.\n  \u2022 The first and third digits add up to 7.\n  \u2022 The smallest digit is 1 and the largest is 7.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 The first and last digits add up to 8.\n  \u2022 Exactly 6 distinct digits appear.\n  \u2022 The last two digits add up to 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "651472"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The digits add up to 24.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first and last digits add up to 12.\n  \u2022 The first and third digits add up to 11.\n  \u2022 The last two digits add up to 5.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 The first two digits add up to 15.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "873114"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 4.\n  \u2022 The first and third digits add up to 14.\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 The digits add up to 19.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first and last digits add up to 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "51940"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first and last digits add up to 9.\n  \u2022 The smallest digit is 0 and the largest is 8.\n  \u2022 The first and third digits add up to 4.\n  \u2022 The first digit is 7 smaller than the last digit.\n  \u2022 The first two digits add up to 1.\n  \u2022 The digits add up to 22.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The last two digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "103828"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 12.\n  \u2022 The digits add up to 20.\n  \u2022 The first two digits add up to 14.\n  \u2022 The first digit is 7 greater than the last digit.\n  \u2022 The smallest digit is 1 and the largest is 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "95312"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 17.\n  \u2022 The first and last digits add up to 13.\n  \u2022 The first and third digits add up to 11.\n  \u2022 The digits add up to 30.\n  \u2022 The first two digits add up to 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "52698"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 12.\n  \u2022 The first digit is 2 greater than the last digit.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first and third digits add up to 7.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The last two digits add up to 14.\n  \u2022 The first two digits add up to 14.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The digits add up to 32.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "770495"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 12.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The last two digits add up to 2.\n  \u2022 The digits add up to 21.\n  \u2022 The first digit is 4 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "67602"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 9.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The first and last digits add up to 12.\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The first two digits add up to 9.\n  \u2022 The last two digits add up to 12.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "90093"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits add up to 17.\n  \u2022 The smallest digit is 0 and the largest is 9.\n  \u2022 The first two digits add up to 9.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 The first and third digits add up to 9.\n  \u2022 The digits add up to 26.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "90098"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The first digit is 9 greater than the last digit.\n  \u2022 The digits add up to 32.\n  \u2022 The first two digits add up to 18.\n  \u2022 The first and third digits add up to 17.\n  \u2022 The last two digits add up to 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "998060"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 digits are even.\n  \u2022 The first and third digits add up to 8.\n  \u2022 The first digit is 7 smaller than the last digit.\n  \u2022 The first two digits add up to 8.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The digits add up to 25.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "26629"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The last two digits add up to 15.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The first and third digits add up to 4.\n  \u2022 The first and last digits add up to 11.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The smallest digit is 1 and the largest is 9.\n  \u2022 The digits add up to 28.\n  \u2022 The first two digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "282169"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first and third digits add up to 6.\n  \u2022 The smallest digit is 0 and the largest is 6.\n  \u2022 The first and last digits add up to 7.\n  \u2022 The last two digits add up to 4.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first two digits add up to 10.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "64031"
+  },
+  {
+    "question": "Find the 6-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 10.\n  \u2022 The digits add up to 30.\n  \u2022 The last two digits add up to 16.\n  \u2022 The first two digits add up to 7.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 The first and last digits add up to 11.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "347088"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and third digits add up to 14.\n  \u2022 Exactly 0 digits are even.\n  \u2022 The first and last digits are equal.\n  \u2022 The digits add up to 29.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The last two digits add up to 12.\n  \u2022 The first two digits add up to 12.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "93539"
+  }
+]

@@ -345,14 +345,14 @@ class GenerationParams:
     max_constraints: int = 50  # safety valve to break dead loops
 
     allowed_rule_types: Sequence[type[Constraint]] = (
-        IsAt,
+        #IsAt,
         NotAt,
-        SameHouse,
+        #SameHouse,
         DiffHouse,
-        Adjacent,
+        #Adjacent,
         NotAdjacent,
-        LeftOf,
-        RightOf,
+        #LeftOf,
+        #RightOf,
         ExactlyKBetween,
         OneOfSetAt,
     )
@@ -411,7 +411,7 @@ class Puzzle:
         # Add puzzle explanation
         lines.append("This is a logic puzzle where you need to figure out which items from")
         lines.append("different categories are in each house. Houses are arranged in a row")
-        lines.append("and numbered from left to right (1, 2, 3, etc.).")
+        lines.append(f"and numbered from left to right from 1 to {len(self.houses)}.")
         lines.append("You are given a set of clues that describe relationships between")
         lines.append("the items and their locations. Your goal is to determine the")
         lines.append(f"correct order of {self.target_category.lower()} across all houses.")
@@ -438,6 +438,7 @@ class Puzzle:
             "You can think step-by-step as long as you want, but eventually you need to give your answer."
             "Give you answer inside a \\boxed{...} tag, and format your answer as a Python list."
             "So the answer should be like this: \\boxed{['item1', 'item2', 'item3', ...]}."
+            "Remember, you only need to find the order of the items in the target category, not ALL items."
         )
         
         return "\n".join(lines)
@@ -787,8 +788,8 @@ def _default_categories() -> Dict[str, List[str]]:
 
 def main(argv: Optional[Sequence[str]] = None) -> None:
     ap = argparse.ArgumentParser(description="Generate Zebra/Einstein logic puzzles (single‑category goal).")
-    ap.add_argument("--houses-min", type=int, default=2, help="Minimum house count (inclusive)")
-    ap.add_argument("--houses-max", type=int, default=4, help="Maximum house count (inclusive)")
+    ap.add_argument("--houses-min", type=int, default=3, help="Minimum house count (inclusive)")
+    ap.add_argument("--houses-max", type=int, default=3, help="Maximum house count (inclusive)")
     ap.add_argument("--count", type=int, default=100, help="How many puzzles to generate")
     ap.add_argument("--seed", type=int, default=None, help="Random‑seed for reproducibility")
     ap.add_argument("--categories-file", type=Path, help="JSON file with category→items mapping")

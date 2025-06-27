@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "5 and 12"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "5 and 12"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "7 and 10"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 14"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "5 and 12"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 14"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "7 and 10"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "5 and 12"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "7 and 10"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 14"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "7 and 10"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 14"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "5 and 12"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "7 and 10"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 14"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "5 and 12"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "8 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "6 and 11"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 14"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "7 and 10"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "5 and 12"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "7 and 10"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "5 and 12"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nS is told their *sum* and P is told their *product*. They then say:\nP: \"I don't know the numbers.\"\nS: \"I knew that.\"\nP: \"Now I know the numbers.\"\nS: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "3 and 8"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 13"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSam is told their *sum* and Pat is told their *product*. They then say:\nPat: \"I don't know the numbers.\"\nSam: \"I knew that.\"\nPat: \"Now I know the numbers.\"\nSam: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "5 and 12"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nSonia is told their *sum* and Peter is told their *product*. They then say:\nPeter: \"I don't know the numbers.\"\nSonia: \"I knew that.\"\nPeter: \"Now I know the numbers.\"\nSonia: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "2 and 9"
+  },
+  {
+    "question": "Two distinct integers greater than 1 and at most 30 are chosen.\nAlice is told their *sum* and Bob is told their *product*. They then say:\nBob: \"I don't know the numbers.\"\nAlice: \"I knew that.\"\nBob: \"Now I know the numbers.\"\nAlice: \"Now I know them too.\"\nWhat are the two numbers?\nGive your answer inside a \\boxed{...} tag, having the sole content be 'A and B' where A and B are the two numbers in ascending order.",
+    "canonical_answer": "4 and 7"
+  }
+]

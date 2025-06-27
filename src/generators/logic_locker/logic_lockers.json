@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 0 digits are 9.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The fourth digit is 1.\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 2 digits are 0.\n  \u2022 The second digit is 0.\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The first digit is 5.\n  \u2022 The third digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "50017"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 The fourth digit is 3.\n  \u2022 The digits add up to 11.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The third digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "15032"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 Exactly 1 digit is 2.\n  \u2022 The first digit is 7.\n  \u2022 The digits add up to 28.\n  \u2022 The fourth digit is 9.\n  \u2022 The second digit is 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "76294"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The fourth digit is 0.\n  \u2022 The first digit is 8 greater than the last digit.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 0 digits are 7.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 Exactly 1 digit is 5.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The digits add up to 21.\n  \u2022 The third digit is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "96501"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 digits are even.\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 The digits add up to 19.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 The first digit is 2.\n  \u2022 The third digit is 4.\n  \u2022 Exactly 1 digit is 6.\n  \u2022 The fourth digit is 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "24463"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is 4.\n  \u2022 The second digit is 8.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 0 digits are 3.\n  \u2022 The fifth digit is 2.\n  \u2022 The digits add up to 30.\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 The third digit is 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "78492"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The third digit is 9.\n  \u2022 The digits add up to 25.\n  \u2022 Exactly 2 digits are 4.\n  \u2022 The second digit is 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "47941"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The third digit is 5.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 0 digits are even.\n  \u2022 Exactly 3 digits are 3.\n  \u2022 The fourth digit is 3.\n  \u2022 Exactly 0 digits are 7.\n  \u2022 The digits add up to 23.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "39533"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 25.\n  \u2022 The first digit is 4 smaller than the last digit.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 Exactly 1 digit is 5.\n  \u2022 The fifth digit is 5.\n  \u2022 Exactly 0 digits are 8.\n  \u2022 Exactly 0 digits are even.\n  \u2022 The second digit is 3.\n  \u2022 The fourth digit is 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "13795"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 0 digits are 6.\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 The first digit is 7.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The digits add up to 35.\n  \u2022 Exactly 1 digit is 9.\n  \u2022 The second digit is 7.\n  \u2022 The fourth digit is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "77957"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 2 digits are 2.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 The digits add up to 25.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 0 digits are 5.\n  \u2022 The first digit is 6.\n  \u2022 The fourth digit is 8.\n  \u2022 The second digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "62782"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 7 greater than the last digit.\n  \u2022 Exactly 1 digit is 8.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The digits add up to 20.\n  \u2022 The fourth digit is 3.\n  \u2022 The third digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "87131"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The fifth digit is 0.\n  \u2022 The second digit is 5.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 Exactly 1 digit is 5.\n  \u2022 The third digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "45170"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 19.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The second digit is 6.\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 Exactly 0 digits are 7.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 The third digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "36280"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The second digit is 9.\n  \u2022 The digits add up to 28.\n  \u2022 The first digit is 6 greater than the last digit.\n  \u2022 The first digit is 9.\n  \u2022 The third digit is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "99523"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is 6.\n  \u2022 The first digit is 2 greater than the last digit.\n  \u2022 Exactly 5 digits are even.\n  \u2022 The fifth digit is 4.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 The third digit is 8.\n  \u2022 The fourth digit is 4.\n  \u2022 The digits add up to 30.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "68844"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 28.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 Exactly 0 digits are 6.\n  \u2022 The fifth digit is 0.\n  \u2022 The first digit is 3.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The fourth digit is 8.\n  \u2022 The second digit is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "38980"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 20.\n  \u2022 The third digit is 0.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 1 digit is 0.\n  \u2022 The second digit is 4.\n  \u2022 Exactly 1 digit is 5.\n  \u2022 The first digit is 1 smaller than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "44075"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 20.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The second digit is 8.\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 Exactly 0 digits are 5.\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The third digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "78122"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 38.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 0 digits are 5.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 The third digit is 8.\n  \u2022 The fourth digit is 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "48899"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 0 digits are 0.\n  \u2022 The digits add up to 16.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 The third digit is 3.\n  \u2022 The second digit is 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "14326"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The fourth digit is 9.\n  \u2022 The third digit is 1.\n  \u2022 The second digit is 8.\n  \u2022 The digits add up to 23.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "28193"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 22.\n  \u2022 The first digit is 2 greater than the last digit.\n  \u2022 Exactly 1 digit is even.\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The first digit is 7.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The second digit is 5.\n  \u2022 The third digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "75055"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 8 greater than the last digit.\n  \u2022 Exactly 0 digits are 6.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The second digit is 8.\n  \u2022 The digits add up to 25.\n  \u2022 The fourth digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "98521"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 26.\n  \u2022 Exactly 0 digits are 7.\n  \u2022 Exactly 1 digit is even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 The fourth digit is 5.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 The fifth digit is 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "93356"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 The first digit is 4 smaller than the last digit.\n  \u2022 The digits add up to 25.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The fifth digit is 5.\n  \u2022 Exactly 1 digit is 6.\n  \u2022 The second digit is 8.\n  \u2022 The third digit is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "18565"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The digits add up to 10.\n  \u2022 The first digit is 5.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The fourth digit is 2.\n  \u2022 The third digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "52021"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 5.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The digits add up to 10.\n  \u2022 The fifth digit is 1.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 The third digit is 0.\n  \u2022 The fourth digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "53011"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 1.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The digits add up to 21.\n  \u2022 The first digit is 7 smaller than the last digit.\n  \u2022 The fourth digit is 4.\n  \u2022 The second digit is 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "16248"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 7.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The digits add up to 23.\n  \u2022 The first digit is 2 greater than the last digit.\n  \u2022 The second digit is 4.\n  \u2022 Exactly 1 digit is 4.\n  \u2022 The third digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "74165"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 4 smaller than the last digit.\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 0 digits are 8.\n  \u2022 The digits add up to 11.\n  \u2022 The third digit is 4.\n  \u2022 The fourth digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "11405"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 The fourth digit is 1.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The fifth digit is 4.\n  \u2022 The second digit is 1.\n  \u2022 The digits add up to 23.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "91814"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The first and last digits are equal.\n  \u2022 The digits add up to 39.\n  \u2022 The first digit is 8.\n  \u2022 The fourth digit is 9.\n  \u2022 Exactly 0 digits are 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "87798"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 2 digits are even.\n  \u2022 The digits add up to 25.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 The first digit is 3 smaller than the last digit.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 Exactly 1 digit is 9.\n  \u2022 Exactly 1 digit is 3.\n  \u2022 Exactly 0 digits are 7.\n  \u2022 Exactly 0 digits are 6.\n  \u2022 The fourth digit is 3.\n  \u2022 The second digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "50938"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 Exactly 1 digit is 8.\n  \u2022 The digits add up to 20.\n  \u2022 The first digit is 8.\n  \u2022 The third digit is 4.\n  \u2022 The second digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "80417"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 22.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 0 digits are 0.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 Exactly 2 digits are 2.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 The fourth digit is 2.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 Exactly 0 digits are 8.\n  \u2022 The fifth digit is 6.\n  \u2022 The second digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "72526"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The first digit is 5.\n  \u2022 The fifth digit is 4.\n  \u2022 The digits add up to 30.\n  \u2022 The fourth digit is 8.\n  \u2022 The third digit is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "58584"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 20.\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 1 digit is 2.\n  \u2022 The third digit is 4.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 5.\n  \u2022 The fifth digit is 8.\n  \u2022 The fourth digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "52418"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 2 digits are 7.\n  \u2022 Exactly 0 digits are 3.\n  \u2022 Exactly 1 digit is 9.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The digits add up to 34.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 The first digit is 6.\n  \u2022 The fourth digit is 7.\n  \u2022 The second digit is 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "69775"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 0 digits are 5.\n  \u2022 The first digit is 2.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 Exactly 2 digits are 2.\n  \u2022 The second digit is 2.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The digits add up to 15.\n  \u2022 Exactly 0 digits are 0.\n  \u2022 The fourth digit is 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "22137"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 6.\n  \u2022 The first digit is 2 greater than the last digit.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The digits add up to 30.\n  \u2022 Exactly 0 digits are 3.\n  \u2022 The second digit is 7.\n  \u2022 Exactly 0 digits are 5.\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The fourth digit is 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "67944"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The fifth digit is 3.\n  \u2022 The second digit is 4.\n  \u2022 Exactly 1 digit is even.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 1 digit is 9.\n  \u2022 The first digit is 9.\n  \u2022 The digits add up to 22.\n  \u2022 The third digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "94153"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 The digits add up to 18.\n  \u2022 Exactly 2 digits are 0.\n  \u2022 The first digit is 7 greater than the last digit.\n  \u2022 The fourth digit is 0.\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The third digit is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "73800"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 Exactly 0 digits are 7.\n  \u2022 Exactly 2 distinct digits appear.\n  \u2022 Exactly 5 digits are even.\n  \u2022 The fifth digit is 4.\n  \u2022 Exactly 2 digits are 4.\n  \u2022 The third digit is 2.\n  \u2022 The second digit is 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "24224"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 2 digits are 0.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The digits add up to 12.\n  \u2022 The first digit is 7 greater than the last digit.\n  \u2022 The second digit is 3.\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The third digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "73020"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 2 digits are 9.\n  \u2022 The digits add up to 34.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 The first digit is 9.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The second digit is 9.\n  \u2022 The fourth digit is 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "99835"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 2 digits are 3.\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The digits add up to 14.\n  \u2022 The third digit is 0.\n  \u2022 The fourth digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "83003"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 28.\n  \u2022 The fifth digit is 3.\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 2 digits are 3.\n  \u2022 The first digit is 3.\n  \u2022 The third digit is 8.\n  \u2022 The fourth digit is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "36883"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The third digit is 9.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The digits add up to 22.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 The second digit is 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "57910"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 The digits add up to 21.\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 0 digits are 3.\n  \u2022 The fourth digit is 5.\n  \u2022 The third digit is 7.\n  \u2022 Exactly 1 digit is 2.\n  \u2022 Exactly 5 distinct digits appear.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "62751"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 1 digit is 1.\n  \u2022 The digits add up to 26.\n  \u2022 The fourth digit is 8.\n  \u2022 The fifth digit is 4.\n  \u2022 The first digit is 3 smaller than the last digit.\n  \u2022 Exactly 0 digits are 7.\n  \u2022 Exactly 2 digits are 8.\n  \u2022 The third digit is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "18584"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 6.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 The third digit is 7.\n  \u2022 The digits add up to 32.\n  \u2022 Exactly 0 digits are 8.\n  \u2022 The fourth digit is 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "64796"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 8 smaller than the last digit.\n  \u2022 The second digit is 7.\n  \u2022 The digits add up to 32.\n  \u2022 Exactly 1 digit is 8.\n  \u2022 The third digit is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "17879"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 22.\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The fifth digit is 2.\n  \u2022 The first digit is 4.\n  \u2022 The third digit is 7.\n  \u2022 The second digit is 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "47722"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The fourth digit is 4.\n  \u2022 The digits add up to 27.\n  \u2022 The first digit is 9.\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 The third digit is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "95544"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits are equal.\n  \u2022 The digits add up to 23.\n  \u2022 Exactly 0 digits are 5.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The second digit is 6.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The fifth digit is 3.\n  \u2022 The third digit is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "36833"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The third digit is 7.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The digits add up to 16.\n  \u2022 The first digit is 4.\n  \u2022 The second digit is 0.\n  \u2022 The first digit is 2 greater than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "40732"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 0 digits are 2.\n  \u2022 The digits add up to 24.\n  \u2022 Exactly 1 digit is even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 5.\n  \u2022 Exactly 1 digit is 9.\n  \u2022 The fifth digit is 9.\n  \u2022 Exactly 1 digit is 4.\n  \u2022 Exactly 1 digit is 5.\n  \u2022 The second digit is 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "54339"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 26.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The fifth digit is 9.\n  \u2022 The third digit is 4.\n  \u2022 Exactly 1 digit is 1.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 8 smaller than the last digit.\n  \u2022 The second digit is 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "19439"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The digits add up to 18.\n  \u2022 The fifth digit is 7.\n  \u2022 The second digit is 2.\n  \u2022 Exactly 1 digit is even.\n  \u2022 The first digit is 6 smaller than the last digit.\n  \u2022 The third digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "12177"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 0 digits are 6.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 The fifth digit is 7.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The digits add up to 29.\n  \u2022 The third digit is 7.\n  \u2022 The second digit is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "28757"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 0 digits are 6.\n  \u2022 The third digit is 9.\n  \u2022 Exactly 4 digits are even.\n  \u2022 Exactly 3 distinct digits appear.\n  \u2022 The digits add up to 37.\n  \u2022 The fourth digit is 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "88948"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 0 digits are 6.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 The digits add up to 15.\n  \u2022 Exactly 4 digits are even.\n  \u2022 The fifth digit is 4.\n  \u2022 The second digit is 2.\n  \u2022 The fourth digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "82104"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 8.\n  \u2022 The first digit is 8 greater than the last digit.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The digits add up to 24.\n  \u2022 Exactly 1 digit is 8.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 1 digit is 0.\n  \u2022 The fourth digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "87720"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 The fourth digit is 8.\n  \u2022 Exactly 1 digit is 1.\n  \u2022 The second digit is 0.\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 The digits add up to 16.\n  \u2022 Exactly 1 digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "10582"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is 6.\n  \u2022 The digits add up to 18.\n  \u2022 The second digit is 3.\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 4.\n  \u2022 The fourth digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "43605"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 The digits add up to 20.\n  \u2022 Exactly 1 digit is 2.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The third digit is 6.\n  \u2022 Exactly 1 digit is 5.\n  \u2022 Exactly 0 digits are 3.\n  \u2022 Exactly 0 digits are 0.\n  \u2022 The fourth digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "56612"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is 6.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The digits add up to 31.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The second digit is 3.\n  \u2022 The fifth digit is 6.\n  \u2022 The third digit is 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "73786"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The digits add up to 23.\n  \u2022 The fifth digit is 0.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 Exactly 0 digits are 7.\n  \u2022 The fourth digit is 9.\n  \u2022 The third digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "49190"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 1 digit is 1.\n  \u2022 The second digit is 0.\n  \u2022 The digits add up to 8.\n  \u2022 Exactly 0 digits are 3.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 The first digit is 1.\n  \u2022 The fourth digit is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "10250"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The first digit is 2.\n  \u2022 The digits add up to 20.\n  \u2022 The third digit is 3.\n  \u2022 The fourth digit is 7.\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 2 digits are 2.\n  \u2022 The first digit is 4 smaller than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "22376"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 0 digits are 0.\n  \u2022 The digits add up to 26.\n  \u2022 The first digit is 8.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 The third digit is 5.\n  \u2022 Exactly 1 digit is 1.\n  \u2022 The second digit is 5.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "85517"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 9.\n  \u2022 The fifth digit is 0.\n  \u2022 Exactly 2 digits are 0.\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 The digits add up to 12.\n  \u2022 The third digit is 0.\n  \u2022 The second digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "91020"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 27.\n  \u2022 The first digit is 7 smaller than the last digit.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first digit is 1.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 The third digit is 3.\n  \u2022 The fourth digit is 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "18378"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 22.\n  \u2022 The second digit is 3.\n  \u2022 Exactly 0 digits are 0.\n  \u2022 Exactly 1 digit is even.\n  \u2022 Exactly 0 digits are 7.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 The fifth digit is 6.\n  \u2022 The third digit is 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "93316"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 digits are even.\n  \u2022 The fifth digit is 0.\n  \u2022 The first digit is 5 greater than the last digit.\n  \u2022 The second digit is 8.\n  \u2022 The digits add up to 25.\n  \u2022 The fourth digit is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "58480"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 19.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 4 greater than the last digit.\n  \u2022 The second digit is 2.\n  \u2022 The third digit is 8.\n  \u2022 Exactly 4 digits are even.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "42850"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 0 digits are 9.\n  \u2022 The digits add up to 24.\n  \u2022 Exactly 0 digits are 3.\n  \u2022 The second digit is 6.\n  \u2022 Exactly 5 digits are even.\n  \u2022 Exactly 1 digit is 2.\n  \u2022 The first and last digits are equal.\n  \u2022 The fifth digit is 4.\n  \u2022 The third digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "46284"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 The first digit is 4.\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 1 digit is 6.\n  \u2022 The fifth digit is 1.\n  \u2022 The third digit is 6.\n  \u2022 The digits add up to 23.\n  \u2022 Exactly 1 digit is 3.\n  \u2022 The fourth digit is 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "49631"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 17.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 0 digits are 3.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 0 digits are 6.\n  \u2022 The third digit is 2.\n  \u2022 The fourth digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "70217"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is 3.\n  \u2022 Exactly 1 digit is 2.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first digit is 2.\n  \u2022 The fourth digit is 6.\n  \u2022 The second digit is 8.\n  \u2022 The digits add up to 24.\n  \u2022 The first digit is 1 smaller than the last digit.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "28563"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The digits add up to 24.\n  \u2022 The second digit is 3.\n  \u2022 Exactly 0 digits are 8.\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The fourth digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "73626"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 35.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The third digit is 8.\n  \u2022 The first digit is 9.\n  \u2022 The second digit is 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "96839"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The fourth digit is 2.\n  \u2022 The digits add up to 21.\n  \u2022 The first digit is 8.\n  \u2022 Exactly 4 digits are even.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 1 digit is 3.\n  \u2022 The fifth digit is 0.\n  \u2022 The third digit is 3.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "88320"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 Exactly 0 digits are 5.\n  \u2022 Exactly 2 digits are 4.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 Exactly 0 digits are 6.\n  \u2022 The digits add up to 21.\n  \u2022 The fifth digit is 2.\n  \u2022 The fourth digit is 4.\n  \u2022 The third digit is 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "38442"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 0 digits are 0.\n  \u2022 Exactly 0 digits are 5.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The digits add up to 39.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The second digit is 7.\n  \u2022 The third digit is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "97869"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 29.\n  \u2022 The first digit is 9 greater than the last digit.\n  \u2022 The third digit is 9.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 1 digit is 7.\n  \u2022 The fourth digit is 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "94970"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 2 digits are even.\n  \u2022 The digits add up to 27.\n  \u2022 Exactly 0 digits are 9.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 1 smaller than the last digit.\n  \u2022 The fifth digit is 8.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 The fourth digit is 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "73368"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 The digits add up to 22.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 Exactly 3 digits are even.\n  \u2022 Exactly 0 digits are 0.\n  \u2022 Exactly 2 digits are 6.\n  \u2022 The fourth digit is 1.\n  \u2022 The fifth digit is 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "56614"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 23.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The fourth digit is 3.\n  \u2022 The fifth digit is 6.\n  \u2022 Exactly 0 digits are 7.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "45536"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 4 digits are even.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 The digits add up to 23.\n  \u2022 The first digit is 6 greater than the last digit.\n  \u2022 Exactly 1 digit is 0.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 1 digit is 2.\n  \u2022 The third digit is 0.\n  \u2022 Exactly 0 digits are 9.\n  \u2022 The second digit is 6.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "86072"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 3 greater than the last digit.\n  \u2022 Exactly 2 digits are even.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 Exactly 1 digit is 4.\n  \u2022 The digits add up to 31.\n  \u2022 The first digit is 8.\n  \u2022 The second digit is 5.\n  \u2022 The third digit is 4.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "85495"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first and last digits are equal.\n  \u2022 The digits add up to 17.\n  \u2022 Exactly 1 digit is 2.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 0 digits are 3.\n  \u2022 The second digit is 6.\n  \u2022 The fourth digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "16721"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 Exactly 1 digit is even.\n  \u2022 Exactly 5 distinct digits appear.\n  \u2022 Exactly 0 digits are 0.\n  \u2022 The digits add up to 32.\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 The first digit is 3.\n  \u2022 The fourth digit is 9.\n  \u2022 The third digit is 8.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "37895"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first and last digits are equal.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The digits add up to 22.\n  \u2022 The third digit is 9.\n  \u2022 Exactly 0 digits are 4.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 2 digits are 6.\n  \u2022 The fourth digit is 1.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "60916"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 34.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 Exactly 0 digits are 1.\n  \u2022 Exactly 2 digits are 8.\n  \u2022 Exactly 0 digits are 5.\n  \u2022 Exactly 0 digits are 6.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 The second digit is 7.\n  \u2022 The fourth digit is 2.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "97828"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 25.\n  \u2022 Exactly 0 digits are 8.\n  \u2022 Exactly 2 digits are even.\n  \u2022 The first digit is 2 smaller than the last digit.\n  \u2022 The third digit is 9.\n  \u2022 The fourth digit is 4.\n  \u2022 Exactly 4 distinct digits appear.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "34945"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 4.\n  \u2022 The digits add up to 38.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 The fourth digit is 9.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "48899"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The digits add up to 12.\n  \u2022 Exactly 0 digits are 2.\n  \u2022 Exactly 0 digits are 5.\n  \u2022 The first digit is 1 greater than the last digit.\n  \u2022 Exactly 4 distinct digits appear.\n  \u2022 Exactly 3 digits are even.\n  \u2022 The fifth digit is 3.\n  \u2022 The third digit is 1.\n  \u2022 The second digit is 0.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "40143"
+  },
+  {
+    "question": "Find the 5-digit code that unlocks the locker.\nIt satisfies all of the following conditions:\n  \u2022 The first digit is 4.\n  \u2022 The second digit is 5.\n  \u2022 The first digit is 5 smaller than the last digit.\n  \u2022 The fourth digit is 5.\n  \u2022 Exactly 1 digit is 9.\n  \u2022 The digits add up to 28.You can think step by step as long as you'd like.Give your final answer inside a \\boxed{...} tag.",
+    "canonical_answer": "45559"
+  }
+]

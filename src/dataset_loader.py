@@ -61,34 +61,6 @@ class GenericDatasetLoader:
         """
         return iter(self._data)
          
-    def load_from_jsonl(self, file_path: Union[str, Path]) -> List[Dict[str, str]]:
-        """
-        Load data from an existing JSONL file.
-        
-        Args:
-            file_path: Path to the JSONL file
-            
-        Returns:
-            List of dictionaries with 'question' and 'canonical_answer' fields
-        """
-        file_path = Path(file_path)
-        logger.info(f"Loading data from {file_path}")
-        
-        try:
-            data = []
-            with open(file_path, 'r', encoding='utf-8') as f:
-                for line in f:
-                    if line.strip():
-                        data.append(json.loads(line))
-            
-            self._data = data  # Store the loaded data
-            logger.info(f"Loaded {len(data)} examples from {file_path}")
-            return data
-            
-        except Exception as e:
-            logger.error(f"Failed to load JSONL file {file_path}: {e}")
-            raise
-
     def load_from_json(self, file_path: Union[str, Path]) -> List[Dict[str, str]]:
         """
         Load data from a JSON file containing a list of dictionaries.
@@ -129,27 +101,20 @@ class GenericDatasetLoader:
             List of dictionaries with 'question' and 'canonical_answer' fields
         """
         file_path = Path(file_path)
+        logger.info(f"Loading data from {file_path}")
+
+        # Try to load as JSON first (list format)
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
         
-        try:
-            # Try to load as JSON first (list format)
-            with open(file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            
-            if isinstance(data, list):
-                logger.info(f"Detected JSON list format in {file_path}")
-                self._data = data
-                logger.info(f"Loaded {len(data)} examples from {file_path}")
-                return data
-            else:
-                raise ValueError(f"JSON file {file_path} does not contain a list")
+        if isinstance(data, list):
+            logger.info(f"Detected JSON list format in {file_path}")
+            self._data = data
+            logger.info(f"Loaded {len(data)} examples from {file_path}")
+            return data
+        else:
+            raise ValueError(f"JSON file {file_path} does not contain a list")
                 
-        except json.JSONDecodeError:
-            # If JSON parsing fails, try JSONL format
-            logger.info(f"Detected JSONL format in {file_path}")
-            return self.load_from_jsonl(file_path)
-        except Exception as e:
-            logger.error(f"Failed to load file {file_path}: {e}")
-            raise
     
     def validate_data(self, data: List[Dict[str, str]]) -> bool:
         """
