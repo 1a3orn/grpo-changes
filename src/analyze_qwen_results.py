@@ -1,186 +1,303 @@
+#!/usr/bin/env python3
+"""
+zebra_gen.py — Infinite ZebraLogic puzzle generator focusing on the ordering
+of a single target category.
+
+**No external dependencies** — uses only Python 3 standard‑library features.
+
+Command‑line usage
+------------------
+$ python zebra_gen.py -n 100 --min-houses 2 --max-houses 4 --out-prefix puzzles
+
+Produces two files:
+  • *puzzles.txt*  – printable puzzles followed by their answers
+  • *puzzles.json* – list of dicts:  {"puzzle_text": …, "correct_answer": …}
+
+Guarantees
+~~~~~~~~~~
+* Exactly one ordering of the chosen **target category** is deducible.
+* No “item in house X” clue ever references the target category.
+* Houses ∈ [min_houses, max_houses] (defaults 2‑4).
+* Categories: 3–4, and never more than houses.
+* Constraint types supported:  FixedHouse, SameHouse, DifferentHouse,
+  NotNextTo, LeftOf, RightOf, OneHouseBetween.
+
+Implementation strategy (vs earlier python‑constraint version)
+-------------------------------------------------------------
+A compact back‑tracking CSP enumerator replaces the third‑party solver.
+Because puzzles are intentionally tiny (≤4 houses × ≤4 categories → 16 items),
+brute‑force with early pruning is lightning‑fast and keeps the code dependency‑free.
+"""
+from __future__ import annotations
+
+import argparse
 import json
-import numpy as np
-from collections import defaultdict
+import random
+from dataclasses import dataclass
+from typing import Dict, List, Tuple
+
+##########################################################
+# 1.  Domain objects
+##########################################################
+
+HouseIdx = int  # 1‑based index along the street (1 … N)
+
+@dataclass(frozen=True)
+class Item:
+    category: str
+    name: str
+
+    def __str__(self) -> str:  # pretty for clue text
+        return self.name
+
+##########################################################
+# 2.  Constraint classes
+##########################################################
+
+class Constraint:
+    """Abstract puzzle constraint."""
+
+    def holds(self, assignment: Dict[Item, HouseIdx]) -> bool:
+        """Return **True** if the constraint is *compatible* with the (possibly
+        partial) assignment.  Unassigned items simply defer the check."""
+        raise NotImplementedError
+
+    def describe(self) -> str:  # human‑readable clue sentence
+        raise NotImplementedError
 
 
-def load_results(filename="qwen_gsm8k_eval_results.json"):
-    """Load the evaluation results from the JSON file."""
-    try:
-        with open(filename, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return data
-    except FileNotFoundError:
-        print(f"Error: Could not find {filename}")
-        return None
-    except json.JSONDecodeError:
-        print(f"Error: Invalid JSON in {filename}")
-        return None
+class FixedHouse(Constraint):
+    def __init__(self, item: Item, house: HouseIdx):
+        self.item, self.house = item, house
+
+    def holds(self, a):
+        if self.item in a:
+            return a[self.item] == self.house
+        return True
+
+    def describe(self):
+        return f"The {self.item} is in house {self.house}."
 
 
-def calculate_question_difficulty(results):
-    """Calculate the proportion correct for each question."""
-    question_stats = []
-    
-    for i, result in enumerate(results):
-        question = result["question"]
-        canonical_answer = result["canonical_answer"]
-        correctness = result["correctness"]
-        
-        # Calculate proportion correct
-        total_attempts = len(correctness)
-        correct_attempts = sum(correctness)
-        proportion_correct = correct_attempts / total_attempts if total_attempts > 0 else 0
-        
-        question_stats.append({
-            "index": i,
-            "question": question,
-            "canonical_answer": canonical_answer,
-            "total_attempts": total_attempts,
-            "correct_attempts": correct_attempts,
-            "proportion_correct": proportion_correct
-        })
-    
-    return question_stats
+class SameHouse(Constraint):
+    def __init__(self, a: Item, b: Item):
+        self.a, self.b = a, b
+
+    def holds(self, a):
+        return (
+            self.a not in a or self.b not in a or a[self.a] == a[self.b]
+        )
+
+    def describe(self):
+        return f"The {self.a} lives in the same house as the {self.b}."
 
 
-def sort_by_difficulty(question_stats):
-    """Sort questions by proportion correct (easiest to hardest)."""
-    return sorted(question_stats, key=lambda x: x["proportion_correct"], reverse=True)
+class DifferentHouse(Constraint):
+    def __init__(self, a: Item, b: Item):
+        self.a, self.b = a, b
+
+    def holds(self, a):
+        return (
+            self.a not in a or self.b not in a or a[self.a] != a[self.b]
+        )
+
+    def describe(self):
+        return f"The {self.a} does not live in the same house as the {self.b}."
 
 
-def calculate_deciles(sorted_stats):
-    """Calculate decile statistics."""
-    n_questions = len(sorted_stats)
-    decile_size = n_questions // 10
-    
-    deciles = []
-    for decile in range(10):
-        start_idx = decile * decile_size
-        end_idx = start_idx + decile_size if decile < 9 else n_questions
-        
-        decile_questions = sorted_stats[start_idx:end_idx]
-        
-        if decile_questions:
-            avg_proportion = np.mean([q["proportion_correct"] for q in decile_questions])
-            min_proportion = min([q["proportion_correct"] for q in decile_questions])
-            max_proportion = max([q["proportion_correct"] for q in decile_questions])
-            
-            deciles.append({
-                "decile": decile + 1,
-                "num_questions": len(decile_questions),
-                "avg_proportion_correct": avg_proportion,
-                "min_proportion_correct": min_proportion,
-                "max_proportion_correct": max_proportion,
-                "questions": decile_questions
-            })
-    
-    return deciles
+class NotNextTo(Constraint):
+    def __init__(self, a: Item, b: Item):
+        self.a, self.b = a, b
+
+    def holds(self, a):
+        return (
+            self.a not in a or self.b not in a or abs(a[self.a] - a[self.b]) != 1
+        )
+
+    def describe(self):
+        return f"The {self.a} is not next to the {self.b}."
 
 
-def print_analysis(data):
-    """Print the complete analysis."""
-    print("=" * 80)
-    print("QWEN GSM8K EVALUATION RESULTS ANALYSIS")
-    print("=" * 80)
-    
-    # Print evaluation settings
-    settings = data.get("evaluation_settings", {})
-    print(f"\nEvaluation Settings:")
-    print(f"  Total Questions: {settings.get('total_questions', 'N/A')}")
-    print(f"  Runs per Question: {settings.get('num_runs_per_question', 'N/A')}")
-    print(f"  Batch Size: {settings.get('batch_size', 'N/A')}")
-    
-    # Print hyperparameters
-    hyperparams = data.get("hyperparameters", {})
-    print(f"\nHyperparameters:")
-    for key, value in hyperparams.items():
-        print(f"  {key}: {value}")
-    
-    # Calculate question difficulty
-    print(f"\nCalculating question difficulty...")
-    question_stats = calculate_question_difficulty(data["results"])
-    
-    # Sort by difficulty
-    sorted_stats = sort_by_difficulty(question_stats)
-    
-    # Calculate overall statistics
-    overall_accuracy = np.mean([q["proportion_correct"] for q in question_stats])
-    print(f"\nOverall Statistics:")
-    print(f"  Average Accuracy: {overall_accuracy:.3f} ({overall_accuracy:.1%})")
-    print(f"  Easiest Question: {sorted_stats[0]['proportion_correct']:.3f} ({sorted_stats[0]['proportion_correct']:.1%})")
-    print(f"  Hardest Question: {sorted_stats[-1]['proportion_correct']:.3f} ({sorted_stats[-1]['proportion_correct']:.1%})")
-    
-    # Calculate and print deciles
-    deciles = calculate_deciles(sorted_stats)
-    
-    print(f"\n" + "=" * 80)
-    print("DECILE ANALYSIS (Easiest to Hardest)")
-    print("=" * 80)
-    print(f"{'Decile':<8} {'Questions':<10} {'Avg Acc':<10} {'Min Acc':<10} {'Max Acc':<10} {'Range':<10}")
-    print("-" * 80)
-    
-    for decile in deciles:
-        range_val = decile["max_proportion_correct"] - decile["min_proportion_correct"]
-        print(f"{decile['decile']:<8} {decile['num_questions']:<10} "
-              f"{decile['avg_proportion_correct']:<10.3f} "
-              f"{decile['min_proportion_correct']:<10.3f} "
-              f"{decile['max_proportion_correct']:<10.3f} "
-              f"{range_val:<10.3f}")
-    
-    # Print detailed breakdown for each decile
-    print(f"\n" + "=" * 80)
-    print("DETAILED DECILE BREAKDOWN")
-    print("=" * 80)
-    
-    for decile in deciles:
-        print(f"\nDecile {decile['decile']} (Easiest {decile['decile']*10}%):")
-        print(f"  Average Accuracy: {decile['avg_proportion_correct']:.3f} ({decile['avg_proportion_correct']:.1%})")
-        print(f"  Range: {decile['min_proportion_correct']:.3f} - {decile['max_proportion_correct']:.3f}")
-        print(f"  Number of Questions: {decile['num_questions']}")
-        
-        # Show a few example questions from this decile
-        print(f"  Example Questions:")
-        for i, q in enumerate(decile['questions'][:3]):  # Show first 3 questions
-            print(f"    {i+1}. Accuracy: {q['proportion_correct']:.3f} - {q['question'][:80]}...")
-        if len(decile['questions']) > 3:
-            print(f"    ... and {len(decile['questions']) - 3} more questions")
+class LeftOf(Constraint):
+    def __init__(self, left: Item, right: Item, distance: int = 1):
+        self.left, self.right, self.k = left, right, distance
+
+    def holds(self, a):
+        if self.left in a and self.right in a:
+            return a[self.left] + self.k == a[self.right]
+        return True
+
+    def describe(self):
+        if self.k == 1:
+            return f"The {self.left} is immediately left of the {self.right}."
+        return f"The {self.left} is {self.k} houses left of the {self.right}."
 
 
-def save_detailed_analysis(data, output_filename="qwen_analysis_detailed.json"):
-    """Save detailed analysis to a JSON file."""
-    question_stats = calculate_question_difficulty(data["results"])
-    sorted_stats = sort_by_difficulty(question_stats)
-    deciles = calculate_deciles(sorted_stats)
-    
-    analysis_data = {
-        "metadata": {
-            "hyperparameters": data.get("hyperparameters", {}),
-            "evaluation_settings": data.get("evaluation_settings", {}),
-            "overall_accuracy": np.mean([q["proportion_correct"] for q in question_stats])
-        },
-        "question_difficulty": sorted_stats,
-        "decile_analysis": deciles
-    }
-    
-    with open(output_filename, 'w', encoding='utf-8') as f:
-        json.dump(analysis_data, f, ensure_ascii=False, indent=2)
-    
-    print(f"\nDetailed analysis saved to {output_filename}")
+class RightOf(LeftOf):
+    def __init__(self, right: Item, left: Item, distance: int = 1):
+        super().__init__(left, right, distance)
+
+    def describe(self):
+        if self.k == 1:
+            return f"The {self.right} is immediately right of the {self.left}."
+        return f"The {self.right} is {self.k} houses right of the {self.left}."
 
 
-def main():
-    """Main function to run the analysis."""
-    # Load the results
-    data = load_results()
-    if data is None:
-        return
-    
-    # Print the analysis
-    print_analysis(data)
-    
-    # Save detailed analysis
-    save_detailed_analysis(data)
+class OneHouseBetween(Constraint):
+    def __init__(self, a: Item, b: Item):
+        self.a, self.b = a, b
+
+    def holds(self, a):
+        return (
+            self.a not in a or self.b not in a or abs(a[self.a] - a[self.b]) == 2
+        )
+
+    def describe(self):
+        return f"There is exactly one house between the {self.a} and the {self.b}."
+
+##########################################################
+# 3.  Constraint sampling helpers
+##########################################################
+
+_SAMPLE_TEMPLATES: List[Tuple] = []  # (callable, weight)
+
+def _register(fn, weight: int = 1):
+    _SAMPLE_TEMPLATES.append((fn, weight))
+    return fn
 
 
-if __name__ == "__main__":
-    main() 
+@_register
+def _sample_fixed(sol, rng, target_cat):
+    item = rng.choice([i for i in sol if i.category != target_cat])
+    return FixedHouse(item, sol[item])
+
+
+@_register
+def _sample_same(sol, rng, *_):
+    return SameHouse(*rng.sample(list(sol.keys()), 2))
+
+
+@_register
+def _sample_diff(sol, rng, *_):
+    return DifferentHouse(*rng.sample(list(sol.keys()), 2))
+
+
+@_register
+def _sample_not_next(sol, rng, *_):
+    return NotNextTo(*rng.sample(list(sol.keys()), 2))
+
+
+@_register
+def _sample_leftof(sol, rng, *_):
+    a, b = rng.sample(list(sol.keys()), 2)
+    return LeftOf(a, b) if sol[a] < sol[b] else LeftOf(b, a)
+
+
+@_register
+def _sample_one_between(sol, rng, *_):
+    pairs = [
+        (i, j)
+        for i, hi in sol.items()
+        for j, hj in sol.items()
+        if abs(hi - hj) == 2 and i != j
+    ]
+    return OneHouseBetween(*rng.choice(pairs)) if pairs else _sample_not_next(sol, rng)
+
+##########################################################
+# 4.  Item banks
+##########################################################
+
+_ITEM_BANK: Dict[str, List[str]] = {
+    "Pets": ["beagle", "cat", "parakeet", "hamster", "iguana", "rabbit", "goldfish"],
+    "Drinks": ["coffee", "tea", "milk", "water", "juice", "soda", "lemonade"],
+    "Instruments": ["flute", "guitar", "violin", "drums", "saxophone", "trumpet", "piano"],
+    "Colors": ["red", "green", "blue", "yellow", "white", "black", "orange"],
+    "Desserts": ["cake", "pie", "pudding", "ice cream", "cookie", "brownie", "tart"],
+}
+_CATEGORIES_POOL = list(_ITEM_BANK.keys())
+
+##########################################################
+# 5.  Brute‑force enumerator (tiny CSP solver)
+##########################################################
+
+def _enumerate_target_orders(
+    items: List[Item],
+    houses: int,
+    constraints: List[Constraint],
+    target_cat: str,
+    max_orders: int = 2,
+):
+    """Return up to *max_orders* distinct orderings for *target_cat* that satisfy
+    *constraints*. Stop once *max_orders* are found (used for uniqueness test)."""
+    assignment: Dict[Item, HouseIdx] = {}
+    used_by_cat: Dict[str, List[HouseIdx]] = {c: [] for c in {i.category for i in items}}
+    target_orders = set()
+
+    items_sorted = sorted(items, key=lambda it: it.category)
+
+    def backtrack(idx: int):
+        if len(target_orders) >= max_orders:
+            return
+        if idx == len(items_sorted):
+            order = tuple(
+                sorted(
+                    (i for i in items_sorted if i.category == target_cat),
+                    key=lambda x: assignment[x],
+                )
+            )
+            target_orders.add(order)
+            return
+        item = items_sorted[idx]
+        cat = item.category
+        for h in range(1, houses + 1):
+            if h in used_by_cat[cat]:
+                continue
+            assignment[item] = h
+            used_by_cat[cat].append(h)
+            if all(c.holds(assignment) for c in constraints):
+                backtrack(idx + 1)
+            used_by_cat[cat].pop()
+            del assignment[item]
+            if len(target_orders) >= max_orders:
+                return
+
+    backtrack(0)
+    return target_orders
+
+##########################################################
+# 6.  Puzzle generator
+##########################################################
+
+@dataclass
+class Puzzle:
+    houses: int
+    categories: List[str]
+    target: str
+    constraints: List[Constraint]
+    solution: Dict[Item, HouseIdx]
+
+    # ----- presentation helpers -----
+    def answer_string(self) -> str:
+        ordered = [
+            itm.name
+            for itm, _ in sorted(
+                ((i, h) for i, h in self.solution.items() if i.category == self.target),
+                key=lambda t: t[1],
+            )
+        ]
+        return ", ".join(ordered)
+
+    def pretty_text(self) -> str:
+        rng_local = random.Random(self.houses * 1337 + len(self.categories))
+        listing = []
+        for cat in self.categories:
+            names = [i.name for i in self.solution if i.category == cat]
+            rng_local.shuffle(names)
+            listing.append(f"  {cat}: {', '.join(names)}")
+        intro = (
+            f"There are {self.houses} houses in a row, numbered 1 to {self.houses}.\n"
+            "Each house contains exactly one item from each of the following categories,"
+            " whose possible items are listed below (in no particular order):\n" +
+            "\n".join(listing)
+        )
+        clues_txt = "\n".join(f"  • {c.describe()}" for c

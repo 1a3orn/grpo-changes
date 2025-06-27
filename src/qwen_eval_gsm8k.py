@@ -19,16 +19,16 @@ HYPERPARAMS = {
 SYSTEM_PROMPT = """You are an intelligent assistant.
 
 You will be given a question and you will need to answer it in the following format:
-<think>Your step-by-step reasoning here</think>
-<answer>[just the number]</answer>
+First, think step-by-step.
+Then, give your answer inside a \\boxed{...} tag, and format your answer as a Python list.
+So the answer should be like this: \\boxed{['item1', 'item2', 'item3', ...]}.
 
 Make sure to:
 - Break down complex problems into simpler steps
 - Show all calculations clearly
-- Provide the final answer as a single number inside the <answer> tag
-- All text MUST be within either the <think> or <answer> tags.
+- ONLY the final answer should be inside the \\boxed{...} tag.
 - Use the exact tag format shown above.
-- Do not include any other text outside of the <think> or <answer> tags."""
+"""
 
 # Evaluation settings
 BATCH_SIZE = 8  # Process 4 questions at a time
@@ -39,7 +39,7 @@ def main():
     # Load 500 questions from GSM8K
     N = 100
     loader = GenericDatasetLoader()
-    data = loader.load_from_jsonl("data/gsm8k_test.jsonl")
+    data = loader.load_from_jsonl("src/generators/zebra/zebra_puzzles.json")
     if len(data) > N:
         data = random.sample(data, N)
     else:

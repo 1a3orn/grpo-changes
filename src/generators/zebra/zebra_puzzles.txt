@@ -1,0 +1,3183 @@
+ZebraLogic #1 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Instruments: flute, guitar
+Books: Iliad, Aeneid
+
+Target category: Instruments
+
+Clues:
+1. The flute is in house 2.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+guitar, flute
+
+================================================================================
+
+ZebraLogic #2 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Pets: dog, zebra
+Books: Koran, Iliad
+
+Target category: Books
+
+Clues:
+1. The zebra is somewhere to the left of the Iliad.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Koran, Iliad
+
+================================================================================
+
+ZebraLogic #3 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Instruments: guitar, flute, trumpet
+Plants: lily, rose, orchid
+Drinks: milk, juice, tea
+
+Target category: Drinks
+
+Clues:
+1. The juice is in house 3.
+2. The tea is somewhere to the left of the milk.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+tea, milk, juice
+
+================================================================================
+
+ZebraLogic #4 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Instruments: flute, trumpet, guitar, piano
+Books: Beowulf, Odyssey, Koran, Inferno
+Plants: orchid, hibiscus, sunflower, rose
+Pets: cat, dog, goldfish, parrot
+
+Target category: Plants
+
+Clues:
+1. The orchid is somewhere to the right of the sunflower.
+2. The sunflower is not in the same house as the guitar.
+3. The piano is not in the same house as the hibiscus.
+4. The Inferno is somewhere to the left of the orchid.
+5. The Odyssey is somewhere to the right of the rose.
+6. Exactly one of flute, Koran, or Inferno is in house 3.
+7. The Koran is not in house 3.
+8. The Koran is somewhere to the right of the guitar.
+9. The hibiscus is not next to the trumpet.
+10. The trumpet is in house 2.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+rose, hibiscus, sunflower, orchid
+
+================================================================================
+
+ZebraLogic #5 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Instruments: guitar, flute
+Plants: daisy, daffodil
+
+Target category: Plants
+
+Clues:
+1. The guitar is in house 1.
+2. The daffodil is not in the same house as the guitar.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+daisy, daffodil
+
+================================================================================
+
+ZebraLogic #6 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Instruments: guitar, piano
+Pets: dog, parrot
+
+Target category: Instruments
+
+Clues:
+1. The piano is in house 2.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+guitar, piano
+
+================================================================================
+
+ZebraLogic #7 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Plants: fern, lily
+Books: Beowulf, Inferno
+
+Target category: Plants
+
+Clues:
+1. The fern is not in house 1.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+lily, fern
+
+================================================================================
+
+ZebraLogic #8 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Drinks: coffee, juice, water, milk
+Plants: fern, cactus, tulip, lily
+Instruments: drums, piano, flute, guitar
+Books: Koran, Beowulf, Bible, Inferno
+
+Target category: Books
+
+Clues:
+1. The Beowulf is in house 4.
+2. The Koran is not in house 2.
+3. The Inferno is in house 1.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Inferno, Bible, Koran, Beowulf
+
+================================================================================
+
+ZebraLogic #9 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Instruments: violin, drums, guitar
+Drinks: water, milk, juice
+Pets: cat, parrot, hamster
+
+Target category: Pets
+
+Clues:
+1. The hamster is in the same house as the juice.
+2. The milk is in house 2.
+3. The water is immediately next to the parrot.
+4. The juice is in house 3.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cat, parrot, hamster
+
+================================================================================
+
+ZebraLogic #10 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Drinks: water, juice, cola, coffee
+Instruments: trumpet, flute, guitar, drums
+Books: Iliad, Aeneid, Inferno, Beowulf
+Pets: goldfish, parrot, cat, hamster
+
+Target category: Pets
+
+Clues:
+1. The parrot is not next to the trumpet.
+2. The water is in house 3.
+3. The cat is in house 4.
+4. The cat is immediately next to the trumpet.
+5. The Inferno is not in the same house as the hamster.
+6. The flute is immediately next to the Inferno.
+7. There are exactly 2 houses between the flute and the cat.
+8. The parrot is not in the same house as the water.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+parrot, goldfish, hamster, cat
+
+================================================================================
+
+ZebraLogic #11 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Instruments: drums, trumpet, flute, violin
+Pets: parrot, zebra, goldfish, hamster
+Drinks: cola, coffee, juice, milk
+Plants: carnation, cactus, sunflower, hibiscus
+
+Target category: Drinks
+
+Clues:
+1. Exactly one of violin, carnation, or cola is in house 2.
+2. The juice is somewhere to the left of the cola.
+3. The milk is not in house 2.
+4. The coffee is not in house 2.
+5. The milk is not next to the violin.
+6. The carnation is not in house 2.
+7. The cola is not in house 2.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+coffee, juice, cola, milk
+
+================================================================================
+
+ZebraLogic #12 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Books: Odyssey, Aeneid
+Plants: carnation, tulip
+
+Target category: Plants
+
+Clues:
+1. The tulip is not in house 2.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+tulip, carnation
+
+================================================================================
+
+ZebraLogic #13 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Books: Iliad, Odyssey, Aeneid
+Pets: dog, parrot, hamster
+Drinks: coffee, water, cola
+
+Target category: Pets
+
+Clues:
+1. The dog is in house 3.
+2. The parrot is in house 1.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+parrot, hamster, dog
+
+================================================================================
+
+ZebraLogic #14 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Books: Bible, Beowulf, Odyssey
+Instruments: violin, drums, flute
+Drinks: cola, tea, water
+
+Target category: Instruments
+
+Clues:
+1. Exactly one of cola, Odyssey, or drums is in house 3.
+2. The Bible is in house 3.
+3. The water is in house 3.
+4. The tea is somewhere to the left of the violin.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+flute, violin, drums
+
+================================================================================
+
+ZebraLogic #15 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Books: Koran, Beowulf
+Instruments: drums, piano
+
+Target category: Books
+
+Clues:
+1. The Koran is not in house 1.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Beowulf, Koran
+
+================================================================================
+
+ZebraLogic #16 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Instruments: guitar, piano, violin, drums
+Drinks: cola, milk, tea, water
+Books: Iliad, Aeneid, Koran, Bible
+Pets: cat, parrot, goldfish, zebra
+
+Target category: Books
+
+Clues:
+1. The zebra is not in the same house as the Koran.
+2. There are exactly 2 houses between the Bible and the cola.
+3. The zebra is in house 2.
+4. The Aeneid is in house 1.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Aeneid, Iliad, Koran, Bible
+
+================================================================================
+
+ZebraLogic #17 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Instruments: flute, violin
+Drinks: juice, milk
+
+Target category: Drinks
+
+Clues:
+1. The violin is not in house 1.
+2. The flute is not next to the juice.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+juice, milk
+
+================================================================================
+
+ZebraLogic #18 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Pets: cat, goldfish, hamster, dog
+Books: Iliad, Odyssey, Beowulf, Inferno
+Drinks: cola, juice, coffee, milk
+Plants: sunflower, rose, orchid, carnation
+
+Target category: Pets
+
+Clues:
+1. The hamster is in house 4.
+2. The Odyssey is somewhere to the left of the goldfish.
+3. The Beowulf is in house 3.
+4. Exactly one of Beowulf, dog, or hamster is in house 2.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cat, dog, goldfish, hamster
+
+================================================================================
+
+ZebraLogic #19 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Instruments: piano, flute, trumpet, drums
+Pets: cat, zebra, hamster, dog
+Plants: tulip, daisy, cactus, fern
+Books: Iliad, Koran, Odyssey, Inferno
+
+Target category: Pets
+
+Clues:
+1. The Iliad is not next to the drums.
+2. The trumpet is in house 4.
+3. The drums is not next to the Inferno.
+4. Exactly one of dog, zebra, or trumpet is in house 4.
+5. The tulip is somewhere to the right of the Odyssey.
+6. The tulip is in the same house as the Koran.
+7. The Odyssey is immediately next to the cat.
+8. The zebra is not next to the hamster.
+9. The fern is not in house 3.
+10. The piano is in house 1.
+11. Exactly one of cat, daisy, or cactus is in house 3.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cat, zebra, dog, hamster
+
+================================================================================
+
+ZebraLogic #20 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Plants: orchid, fern, ivy
+Drinks: water, juice, milk
+Pets: zebra, hamster, goldfish
+
+Target category: Plants
+
+Clues:
+1. The goldfish is in house 1.
+2. Exactly one of goldfish, juice, or water is in house 2.
+3. The zebra is in the same house as the orchid.
+4. Exactly one of orchid, ivy, or zebra is in house 1.
+5. The fern is not next to the milk.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+ivy, orchid, fern
+
+================================================================================
+
+ZebraLogic #21 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Plants: daffodil, cactus, carnation, rose
+Drinks: milk, coffee, water, tea
+Pets: cat, goldfish, zebra, hamster
+Books: Koran, Iliad, Inferno, Odyssey
+
+Target category: Pets
+
+Clues:
+1. The daffodil is somewhere to the left of the zebra.
+2. The cat is somewhere to the right of the goldfish.
+3. Exactly one of cat, carnation, or rose is in house 2.
+4. There are exactly 2 houses between the Odyssey and the carnation.
+5. The carnation is somewhere to the left of the coffee.
+6. The daffodil is in the same house as the hamster.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+goldfish, cat, hamster, zebra
+
+================================================================================
+
+ZebraLogic #22 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Plants: sunflower, lily, carnation, daffodil
+Books: Iliad, Inferno, Aeneid, Bible
+Drinks: water, milk, cola, coffee
+Pets: zebra, hamster, parrot, cat
+
+Target category: Books
+
+Clues:
+1. The Iliad is not in house 1.
+2. The Iliad is not in the same house as the lily.
+3. The milk is in house 4.
+4. The Bible is in house 4.
+5. The carnation is not in house 3.
+6. The Inferno is somewhere to the right of the daffodil.
+7. The milk is not next to the sunflower.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Aeneid, Iliad, Inferno, Bible
+
+================================================================================
+
+ZebraLogic #23 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Drinks: coffee, water, milk, cola
+Pets: parrot, zebra, hamster, dog
+Plants: daffodil, rose, cactus, sunflower
+Instruments: drums, piano, guitar, violin
+
+Target category: Plants
+
+Clues:
+1. The daffodil is in house 2.
+2. Exactly one of cactus, zebra, or piano is in house 3.
+3. The violin is in the same house as the dog.
+4. The violin is somewhere to the right of the drums.
+5. The water is in house 2.
+6. The drums is not next to the violin.
+7. Exactly one of coffee, dog, or milk is in house 4.
+8. The cola is somewhere to the left of the coffee.
+9. The water is immediately next to the rose.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+rose, daffodil, cactus, sunflower
+
+================================================================================
+
+ZebraLogic #24 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Books: Inferno, Beowulf
+Drinks: tea, juice
+
+Target category: Books
+
+Clues:
+1. The Beowulf is in house 1.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Beowulf, Inferno
+
+================================================================================
+
+ZebraLogic #25 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Books: Iliad, Aeneid, Koran, Inferno
+Drinks: tea, coffee, juice, water
+Pets: cat, goldfish, parrot, dog
+Plants: hibiscus, daffodil, sunflower, carnation
+
+Target category: Plants
+
+Clues:
+1. There are exactly 2 houses between the Koran and the coffee.
+2. The daffodil is in house 3.
+3. The daffodil is not next to the hibiscus.
+4. The Inferno is in house 4.
+5. The coffee is not in the same house as the sunflower.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+hibiscus, sunflower, daffodil, carnation
+
+================================================================================
+
+ZebraLogic #26 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Drinks: water, tea
+Books: Beowulf, Bible
+
+Target category: Drinks
+
+Clues:
+1. The Beowulf is in house 2.
+2. The water is in the same house as the Bible.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+water, tea
+
+================================================================================
+
+ZebraLogic #27 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Drinks: milk, cola
+Plants: lily, cactus
+
+Target category: Plants
+
+Clues:
+1. The cola is not in the same house as the lily.
+2. The milk is not in house 2.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+lily, cactus
+
+================================================================================
+
+ZebraLogic #28 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Plants: daffodil, cactus, rose
+Books: Koran, Aeneid, Inferno
+Instruments: violin, guitar, flute
+
+Target category: Instruments
+
+Clues:
+1. The guitar is not next to the flute.
+2. The guitar is somewhere to the right of the violin.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+flute, violin, guitar
+
+================================================================================
+
+ZebraLogic #29 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Instruments: drums, flute, guitar, trumpet
+Drinks: juice, cola, milk, tea
+Books: Beowulf, Iliad, Odyssey, Aeneid
+Plants: lily, cactus, tulip, fern
+
+Target category: Books
+
+Clues:
+1. The Iliad is in house 1.
+2. The lily is in house 2.
+3. The guitar is in house 4.
+4. The guitar is immediately next to the drums.
+5. Exactly one of tea, drums, or Beowulf is in house 3.
+6. Exactly one of fern, cactus, or Aeneid is in house 2.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Iliad, Aeneid, Odyssey, Beowulf
+
+================================================================================
+
+ZebraLogic #30 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Pets: dog, zebra, goldfish
+Books: Odyssey, Koran, Beowulf
+Drinks: tea, cola, juice
+
+Target category: Books
+
+Clues:
+1. The dog is not in house 2.
+2. The goldfish is in house 1.
+3. The zebra is in the same house as the Koran.
+4. The cola is in house 3.
+5. The Odyssey is not in the same house as the cola.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Odyssey, Koran, Beowulf
+
+================================================================================
+
+ZebraLogic #31 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Pets: zebra, cat, hamster, goldfish
+Drinks: milk, coffee, cola, water
+Books: Koran, Inferno, Odyssey, Iliad
+Plants: daffodil, orchid, ivy, hibiscus
+
+Target category: Drinks
+
+Clues:
+1. The cat is not next to the water.
+2. The zebra is in the same house as the cola.
+3. Exactly one of coffee, Koran, or cat is in house 3.
+4. The water is somewhere to the left of the cat.
+5. The cola is in house 4.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+water, coffee, milk, cola
+
+================================================================================
+
+ZebraLogic #32 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Plants: daisy, orchid
+Drinks: milk, cola
+
+Target category: Drinks
+
+Clues:
+1. The daisy is in house 2.
+2. The orchid is not next to the cola.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cola, milk
+
+================================================================================
+
+ZebraLogic #33 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Plants: fern, tulip, sunflower
+Drinks: tea, milk, water
+Instruments: piano, flute, violin
+
+Target category: Plants
+
+Clues:
+1. The tulip is immediately next to the tea.
+2. The milk is not next to the sunflower.
+3. The sunflower is not next to the tea.
+4. The flute is somewhere to the left of the fern.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+sunflower, tulip, fern
+
+================================================================================
+
+ZebraLogic #34 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Instruments: violin, drums
+Drinks: cola, coffee
+
+Target category: Instruments
+
+Clues:
+1. Exactly one of drums, coffee, or cola is in house 2.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+drums, violin
+
+================================================================================
+
+ZebraLogic #35 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Pets: cat, zebra
+Books: Inferno, Beowulf
+
+Target category: Books
+
+Clues:
+1. The Beowulf is somewhere to the left of the Inferno.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Beowulf, Inferno
+
+================================================================================
+
+ZebraLogic #36 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Books: Koran, Odyssey
+Plants: ivy, daffodil
+
+Target category: Plants
+
+Clues:
+1. Exactly one of Odyssey, Koran, or ivy is in house 1.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+daffodil, ivy
+
+================================================================================
+
+ZebraLogic #37 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Instruments: flute, drums, trumpet
+Books: Odyssey, Iliad, Bible
+Pets: zebra, goldfish, cat
+
+Target category: Books
+
+Clues:
+1. The Odyssey is in house 2.
+2. The trumpet is somewhere to the right of the Iliad.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Iliad, Odyssey, Bible
+
+================================================================================
+
+ZebraLogic #38 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Pets: dog, cat, hamster, goldfish
+Plants: rose, sunflower, cactus, daisy
+Instruments: flute, violin, drums, piano
+Drinks: coffee, cola, water, juice
+
+Target category: Pets
+
+Clues:
+1. The cat is not next to the hamster.
+2. The cat is in house 2.
+3. The drums is somewhere to the left of the dog.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+goldfish, cat, dog, hamster
+
+================================================================================
+
+ZebraLogic #39 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Drinks: tea, milk, cola, juice
+Books: Odyssey, Koran, Inferno, Beowulf
+Plants: hibiscus, daisy, orchid, lily
+Pets: zebra, goldfish, hamster, parrot
+
+Target category: Drinks
+
+Clues:
+1. The Koran is somewhere to the left of the tea.
+2. The milk is in house 2.
+3. There are exactly 2 houses between the juice and the tea.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+juice, milk, cola, tea
+
+================================================================================
+
+ZebraLogic #40 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Plants: ivy, carnation
+Pets: cat, hamster
+
+Target category: Pets
+
+Clues:
+1. The cat is not in house 1.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+hamster, cat
+
+================================================================================
+
+ZebraLogic #41 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Instruments: guitar, flute, piano, drums
+Pets: cat, dog, parrot, hamster
+Drinks: cola, coffee, milk, water
+Books: Koran, Aeneid, Odyssey, Iliad
+
+Target category: Pets
+
+Clues:
+1. The Iliad is somewhere to the left of the dog.
+2. The parrot is in house 3.
+3. The hamster is in the same house as the Iliad.
+4. The Odyssey is not next to the Aeneid.
+5. The Odyssey is in the same house as the parrot.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cat, hamster, parrot, dog
+
+================================================================================
+
+ZebraLogic #42 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Plants: hibiscus, orchid
+Instruments: piano, drums
+
+Target category: Plants
+
+Clues:
+1. The orchid is not in house 2.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+orchid, hibiscus
+
+================================================================================
+
+ZebraLogic #43 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Instruments: piano, flute
+Plants: carnation, daisy
+
+Target category: Plants
+
+Clues:
+1. Exactly one of piano, daisy, or flute is in house 2.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+daisy, carnation
+
+================================================================================
+
+ZebraLogic #44 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Instruments: guitar, piano, trumpet, drums
+Plants: lily, tulip, ivy, orchid
+Books: Bible, Inferno, Iliad, Koran
+Drinks: water, juice, coffee, cola
+
+Target category: Instruments
+
+Clues:
+1. There are exactly 2 houses between the trumpet and the Inferno.
+2. Exactly one of Koran, Inferno, or Iliad is in house 2.
+3. The drums is not in the same house as the orchid.
+4. The Iliad is in house 1.
+5. The orchid is immediately next to the Koran.
+6. The ivy is not next to the Inferno.
+7. The piano is immediately next to the ivy.
+8. The drums is not in house 4.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+trumpet, drums, piano, guitar
+
+================================================================================
+
+ZebraLogic #45 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Plants: fern, carnation
+Books: Koran, Inferno
+
+Target category: Plants
+
+Clues:
+1. The fern is not in house 2.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+fern, carnation
+
+================================================================================
+
+ZebraLogic #46 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Instruments: guitar, flute
+Books: Koran, Inferno
+
+Target category: Books
+
+Clues:
+1. The guitar is immediately next to the Inferno.
+2. The flute is not in house 1.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Koran, Inferno
+
+================================================================================
+
+ZebraLogic #47 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Books: Odyssey, Inferno, Aeneid
+Pets: cat, goldfish, parrot
+Instruments: trumpet, flute, guitar
+
+Target category: Pets
+
+Clues:
+1. The Aeneid is in house 1.
+2. The Aeneid is not in the same house as the cat.
+3. Exactly one of trumpet, cat, or flute is in house 3.
+4. The Inferno is somewhere to the right of the parrot.
+5. The trumpet is in house 3.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+parrot, cat, goldfish
+
+================================================================================
+
+ZebraLogic #48 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Drinks: cola, tea, juice, coffee
+Plants: daffodil, cactus, rose, lily
+Books: Odyssey, Iliad, Inferno, Aeneid
+Instruments: flute, violin, trumpet, piano
+
+Target category: Plants
+
+Clues:
+1. The lily is in the same house as the Inferno.
+2. The cactus is not next to the Iliad.
+3. The trumpet is not in the same house as the lily.
+4. The cola is not next to the piano.
+5. Exactly one of Odyssey, cactus, or trumpet is in house 3.
+6. The Odyssey is not in the same house as the daffodil.
+7. The cola is in house 2.
+8. The daffodil is not in the same house as the piano.
+9. The Aeneid is somewhere to the right of the trumpet.
+10. The daffodil is not next to the violin.
+11. The Odyssey is immediately next to the Iliad.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+daffodil, rose, cactus, lily
+
+================================================================================
+
+ZebraLogic #49 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Drinks: milk, coffee, juice, water
+Instruments: trumpet, flute, guitar, violin
+Plants: ivy, lily, orchid, carnation
+Books: Bible, Aeneid, Inferno, Beowulf
+
+Target category: Instruments
+
+Clues:
+1. The trumpet is in house 3.
+2. The trumpet is immediately next to the flute.
+3. The violin is in house 4.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+guitar, flute, trumpet, violin
+
+================================================================================
+
+ZebraLogic #50 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Drinks: juice, coffee, cola
+Pets: zebra, hamster, cat
+Books: Iliad, Inferno, Beowulf
+
+Target category: Drinks
+
+Clues:
+1. The coffee is somewhere to the left of the cat.
+2. The cat is not next to the cola.
+3. The hamster is in house 3.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+coffee, cola, juice
+
+================================================================================
+
+ZebraLogic #51 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Plants: fern, orchid
+Books: Aeneid, Koran
+
+Target category: Plants
+
+Clues:
+1. The orchid is in house 1.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+orchid, fern
+
+================================================================================
+
+ZebraLogic #52 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Instruments: piano, guitar, violin
+Plants: orchid, sunflower, cactus
+Drinks: water, coffee, milk
+
+Target category: Drinks
+
+Clues:
+1. The water is not in house 1.
+2. The water is not in house 2.
+3. The coffee is somewhere to the right of the sunflower.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+milk, coffee, water
+
+================================================================================
+
+ZebraLogic #53 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Pets: dog, parrot, cat, hamster
+Drinks: water, juice, cola, milk
+Books: Bible, Beowulf, Inferno, Koran
+Instruments: violin, drums, flute, guitar
+
+Target category: Pets
+
+Clues:
+1. The cola is in house 2.
+2. The violin is not next to the parrot.
+3. The juice is not next to the violin.
+4. The dog is in house 4.
+5. The Beowulf is not next to the guitar.
+6. The Beowulf is in house 4.
+7. The drums is somewhere to the left of the guitar.
+8. The parrot is not in house 3.
+9. The water is not next to the parrot.
+10. The cat is not next to the guitar.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+parrot, cat, hamster, dog
+
+================================================================================
+
+ZebraLogic #54 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Instruments: guitar, piano, drums, flute
+Books: Aeneid, Inferno, Koran, Odyssey
+Drinks: tea, cola, milk, water
+Pets: zebra, dog, goldfish, parrot
+
+Target category: Drinks
+
+Clues:
+1. The water is not in house 3.
+2. Exactly one of zebra, Koran, or Aeneid is in house 2.
+3. Exactly one of Aeneid, tea, or milk is in house 1.
+4. The Inferno is not in the same house as the water.
+5. The Aeneid is in house 3.
+6. The water is somewhere to the right of the flute.
+7. The flute is in house 2.
+8. The Odyssey is not in the same house as the water.
+9. The milk is not next to the zebra.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+tea, milk, cola, water
+
+================================================================================
+
+ZebraLogic #55 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Plants: tulip, fern, lily
+Instruments: guitar, trumpet, flute
+Drinks: tea, coffee, juice
+
+Target category: Drinks
+
+Clues:
+1. The juice is in house 3.
+2. The coffee is not in house 1.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+tea, coffee, juice
+
+================================================================================
+
+ZebraLogic #56 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Plants: sunflower, carnation, rose, cactus
+Pets: zebra, dog, cat, goldfish
+Instruments: guitar, piano, flute, trumpet
+Drinks: cola, water, coffee, juice
+
+Target category: Plants
+
+Clues:
+1. The sunflower is somewhere to the left of the carnation.
+2. The guitar is in the same house as the zebra.
+3. The rose is not in the same house as the guitar.
+4. The zebra is in house 3.
+5. The trumpet is in house 4.
+6. The carnation is in the same house as the flute.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+sunflower, carnation, cactus, rose
+
+================================================================================
+
+ZebraLogic #57 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Instruments: trumpet, guitar, violin
+Drinks: coffee, water, cola
+Pets: goldfish, dog, cat
+
+Target category: Pets
+
+Clues:
+1. Exactly one of water, violin, or cola is in house 2.
+2. The goldfish is immediately next to the cola.
+3. Exactly one of dog, violin, or water is in house 2.
+4. The dog is somewhere to the left of the goldfish.
+5. Exactly one of coffee, cat, or dog is in house 2.
+6. The coffee is in house 1.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cat, dog, goldfish
+
+================================================================================
+
+ZebraLogic #58 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Pets: cat, parrot
+Drinks: cola, milk
+
+Target category: Pets
+
+Clues:
+1. The cat is in house 1.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cat, parrot
+
+================================================================================
+
+ZebraLogic #59 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Books: Iliad, Odyssey
+Instruments: violin, trumpet
+
+Target category: Books
+
+Clues:
+1. The Odyssey is immediately next to the trumpet.
+2. The violin is in house 2.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Iliad, Odyssey
+
+================================================================================
+
+ZebraLogic #60 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Books: Iliad, Aeneid
+Pets: cat, parrot
+
+Target category: Books
+
+Clues:
+1. The Iliad is in house 1.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Iliad, Aeneid
+
+================================================================================
+
+ZebraLogic #61 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Books: Beowulf, Inferno
+Instruments: flute, piano
+
+Target category: Instruments
+
+Clues:
+1. The flute is in house 2.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+piano, flute
+
+================================================================================
+
+ZebraLogic #62 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Plants: daisy, fern, carnation, daffodil
+Books: Aeneid, Beowulf, Bible, Iliad
+Pets: hamster, zebra, goldfish, cat
+Instruments: violin, guitar, piano, drums
+
+Target category: Instruments
+
+Clues:
+1. The cat is in house 2.
+2. The piano is in the same house as the zebra.
+3. The Iliad is immediately next to the carnation.
+4. The Beowulf is not in house 3.
+5. There are exactly 2 houses between the Aeneid and the fern.
+6. The carnation is immediately next to the guitar.
+7. Exactly one of violin, fern, or Iliad is in house 4.
+8. The Bible is immediately next to the Beowulf.
+9. Exactly one of Bible, daffodil, or hamster is in house 2.
+10. The guitar is somewhere to the left of the Bible.
+11. Exactly one of goldfish, hamster, or Bible is in house 3.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+violin, guitar, piano, drums
+
+================================================================================
+
+ZebraLogic #63 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Drinks: coffee, tea, juice
+Pets: hamster, goldfish, parrot
+Books: Bible, Koran, Odyssey
+
+Target category: Books
+
+Clues:
+1. Exactly one of tea, goldfish, or Bible is in house 2.
+2. The tea is in the same house as the parrot.
+3. The coffee is somewhere to the left of the Bible.
+4. The goldfish is somewhere to the right of the parrot.
+5. The Bible is immediately next to the Koran.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Odyssey, Koran, Bible
+
+================================================================================
+
+ZebraLogic #64 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Drinks: milk, tea, water
+Pets: hamster, dog, cat
+Instruments: piano, flute, drums
+
+Target category: Drinks
+
+Clues:
+1. The water is in house 1.
+2. The milk is not in house 3.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+water, milk, tea
+
+================================================================================
+
+ZebraLogic #65 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Plants: ivy, sunflower
+Instruments: piano, trumpet
+
+Target category: Instruments
+
+Clues:
+1. The sunflower is somewhere to the left of the trumpet.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+piano, trumpet
+
+================================================================================
+
+ZebraLogic #66 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Plants: fern, carnation, cactus, daffodil
+Instruments: flute, violin, guitar, trumpet
+Books: Aeneid, Beowulf, Inferno, Odyssey
+Pets: cat, hamster, parrot, zebra
+
+Target category: Plants
+
+Clues:
+1. Exactly one of cactus, hamster, or zebra is in house 1.
+2. The cactus is not next to the Odyssey.
+3. The carnation is in house 4.
+4. The parrot is in the same house as the Aeneid.
+5. The cat is in the same house as the daffodil.
+6. The Beowulf is in house 4.
+7. The Aeneid is not in house 3.
+8. The hamster is immediately next to the Inferno.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cactus, daffodil, fern, carnation
+
+================================================================================
+
+ZebraLogic #67 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Books: Aeneid, Inferno
+Plants: daisy, ivy
+
+Target category: Plants
+
+Clues:
+1. The ivy is somewhere to the left of the daisy.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+ivy, daisy
+
+================================================================================
+
+ZebraLogic #68 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Drinks: water, juice, milk
+Pets: goldfish, cat, hamster
+Books: Koran, Bible, Odyssey
+
+Target category: Books
+
+Clues:
+1. The Odyssey is somewhere to the left of the milk.
+2. The Koran is somewhere to the left of the Odyssey.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Koran, Odyssey, Bible
+
+================================================================================
+
+ZebraLogic #69 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Pets: zebra, hamster, parrot, cat
+Plants: cactus, daffodil, daisy, carnation
+Books: Bible, Iliad, Beowulf, Odyssey
+Drinks: cola, coffee, milk, water
+
+Target category: Pets
+
+Clues:
+1. The hamster is in house 2.
+2. The cat is in house 4.
+3. There are exactly 2 houses between the parrot and the Iliad.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+parrot, hamster, zebra, cat
+
+================================================================================
+
+ZebraLogic #70 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Drinks: coffee, water, juice, milk
+Pets: dog, goldfish, parrot, zebra
+Instruments: piano, guitar, trumpet, flute
+Plants: daisy, fern, rose, lily
+
+Target category: Pets
+
+Clues:
+1. The flute is not in house 3.
+2. The rose is immediately next to the zebra.
+3. The trumpet is somewhere to the right of the zebra.
+4. The lily is not in house 3.
+5. The piano is somewhere to the right of the guitar.
+6. The fern is in house 4.
+7. The trumpet is not in the same house as the parrot.
+8. Exactly one of guitar, lily, or flute is in house 1.
+9. The guitar is in the same house as the juice.
+10. The milk is somewhere to the left of the flute.
+11. Exactly one of trumpet, dog, or juice is in house 4.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+parrot, zebra, goldfish, dog
+
+================================================================================
+
+ZebraLogic #71 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Books: Inferno, Beowulf, Iliad
+Plants: tulip, rose, sunflower
+Instruments: flute, violin, trumpet
+
+Target category: Plants
+
+Clues:
+1. The Inferno is in house 2.
+2. The Inferno is in the same house as the sunflower.
+3. The tulip is in house 1.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+tulip, sunflower, rose
+
+================================================================================
+
+ZebraLogic #72 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Drinks: tea, coffee, juice
+Plants: rose, orchid, cactus
+Instruments: flute, guitar, trumpet
+
+Target category: Plants
+
+Clues:
+1. The cactus is not in house 1.
+2. The orchid is in house 2.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+rose, orchid, cactus
+
+================================================================================
+
+ZebraLogic #73 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Plants: rose, tulip, lily, fern
+Pets: cat, zebra, hamster, dog
+Books: Bible, Aeneid, Beowulf, Koran
+Drinks: milk, coffee, tea, juice
+
+Target category: Books
+
+Clues:
+1. The Koran is immediately next to the Aeneid.
+2. The Koran is immediately next to the juice.
+3. The juice is in house 4.
+4. The Bible is in house 4.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Beowulf, Aeneid, Koran, Bible
+
+================================================================================
+
+ZebraLogic #74 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Books: Bible, Odyssey, Iliad, Beowulf
+Pets: cat, dog, goldfish, hamster
+Drinks: water, juice, coffee, cola
+Plants: fern, ivy, daffodil, orchid
+
+Target category: Plants
+
+Clues:
+1. The Beowulf is immediately next to the dog.
+2. The water is in house 2.
+3. The orchid is in house 2.
+4. Exactly one of Odyssey, cat, or goldfish is in house 1.
+5. There are exactly 2 houses between the cola and the ivy.
+6. The water is immediately next to the Iliad.
+7. The dog is somewhere to the left of the daffodil.
+8. Exactly one of Bible, fern, or cola is in house 3.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+ivy, orchid, fern, daffodil
+
+================================================================================
+
+ZebraLogic #75 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Books: Beowulf, Odyssey, Iliad, Bible
+Instruments: guitar, trumpet, piano, drums
+Plants: cactus, daisy, orchid, carnation
+Drinks: water, coffee, milk, cola
+
+Target category: Instruments
+
+Clues:
+1. Exactly one of milk, piano, or orchid is in house 1.
+2. Exactly one of coffee, cola, or trumpet is in house 2.
+3. The coffee is in house 2.
+4. The orchid is somewhere to the left of the Beowulf.
+5. The trumpet is somewhere to the right of the Iliad.
+6. The orchid is somewhere to the right of the coffee.
+7. The milk is somewhere to the left of the Odyssey.
+8. The trumpet is somewhere to the left of the guitar.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+drums, piano, trumpet, guitar
+
+================================================================================
+
+ZebraLogic #76 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Plants: rose, daisy
+Instruments: drums, trumpet
+
+Target category: Plants
+
+Clues:
+1. The rose is not in house 2.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+rose, daisy
+
+================================================================================
+
+ZebraLogic #77 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Pets: zebra, goldfish, parrot
+Books: Aeneid, Bible, Inferno
+Drinks: tea, water, juice
+
+Target category: Pets
+
+Clues:
+1. The goldfish is not in house 3.
+2. The zebra is in house 1.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+zebra, goldfish, parrot
+
+================================================================================
+
+ZebraLogic #78 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Instruments: guitar, piano, violin
+Pets: goldfish, parrot, dog
+Plants: sunflower, carnation, daffodil
+
+Target category: Instruments
+
+Clues:
+1. The piano is somewhere to the right of the goldfish.
+2. The daffodil is not in house 3.
+3. The daffodil is in the same house as the piano.
+4. The dog is in house 3.
+5. The dog is not in the same house as the violin.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+violin, piano, guitar
+
+================================================================================
+
+ZebraLogic #79 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Pets: zebra, dog, cat, goldfish
+Plants: carnation, cactus, ivy, lily
+Instruments: piano, drums, violin, trumpet
+Books: Odyssey, Bible, Iliad, Beowulf
+
+Target category: Pets
+
+Clues:
+1. The trumpet is in house 1.
+2. Exactly one of dog, cat, or Beowulf is in house 1.
+3. The dog is in house 2.
+4. The Beowulf is not in the same house as the trumpet.
+5. The zebra is somewhere to the left of the cactus.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cat, dog, zebra, goldfish
+
+================================================================================
+
+ZebraLogic #80 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Drinks: tea, water, milk
+Instruments: flute, piano, drums
+Books: Odyssey, Aeneid, Beowulf
+
+Target category: Books
+
+Clues:
+1. The piano is not next to the Odyssey.
+2. The water is immediately next to the Beowulf.
+3. The tea is not in the same house as the Beowulf.
+4. The piano is in the same house as the milk.
+5. The milk is in house 3.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Odyssey, Aeneid, Beowulf
+
+================================================================================
+
+ZebraLogic #81 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Books: Inferno, Aeneid, Bible, Iliad
+Plants: fern, daisy, sunflower, ivy
+Pets: zebra, dog, cat, parrot
+Instruments: violin, trumpet, guitar, flute
+
+Target category: Instruments
+
+Clues:
+1. There are exactly 2 houses between the ivy and the Inferno.
+2. The Inferno is somewhere to the right of the violin.
+3. Exactly one of guitar, trumpet, or Inferno is in house 3.
+4. The trumpet is immediately next to the ivy.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+violin, trumpet, guitar, flute
+
+================================================================================
+
+ZebraLogic #82 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Plants: rose, hibiscus, fern
+Books: Bible, Inferno, Koran
+Pets: goldfish, zebra, cat
+
+Target category: Books
+
+Clues:
+1. The goldfish is in house 1.
+2. The goldfish is immediately next to the Inferno.
+3. The Bible is not in house 1.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Koran, Inferno, Bible
+
+================================================================================
+
+ZebraLogic #83 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Instruments: violin, drums, guitar, flute
+Pets: cat, dog, zebra, goldfish
+Plants: tulip, fern, daffodil, carnation
+Books: Inferno, Iliad, Bible, Odyssey
+
+Target category: Books
+
+Clues:
+1. Exactly one of guitar, Bible, or fern is in house 4.
+2. The Odyssey is not in house 2.
+3. The tulip is in house 4.
+4. The guitar is not in house 4.
+5. The Inferno is in house 1.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Inferno, Iliad, Odyssey, Bible
+
+================================================================================
+
+ZebraLogic #84 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Books: Koran, Bible, Beowulf
+Instruments: trumpet, piano, guitar
+Plants: sunflower, carnation, orchid
+
+Target category: Instruments
+
+Clues:
+1. The Beowulf is somewhere to the right of the piano.
+2. The guitar is not in house 1.
+3. The guitar is not in house 3.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+piano, guitar, trumpet
+
+================================================================================
+
+ZebraLogic #85 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Books: Aeneid, Iliad
+Pets: parrot, cat
+
+Target category: Pets
+
+Clues:
+1. The parrot is in house 2.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cat, parrot
+
+================================================================================
+
+ZebraLogic #86 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Pets: parrot, zebra, cat
+Instruments: flute, piano, guitar
+Books: Koran, Odyssey, Inferno
+
+Target category: Instruments
+
+Clues:
+1. The guitar is in house 1.
+2. The piano is not in house 2.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+guitar, flute, piano
+
+================================================================================
+
+ZebraLogic #87 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Books: Iliad, Koran, Aeneid
+Plants: rose, carnation, lily
+Drinks: juice, cola, tea
+
+Target category: Books
+
+Clues:
+1. The Koran is in house 1.
+2. The Aeneid is in house 3.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Koran, Iliad, Aeneid
+
+================================================================================
+
+ZebraLogic #88 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Instruments: drums, guitar, flute, violin
+Books: Odyssey, Inferno, Aeneid, Iliad
+Plants: tulip, carnation, orchid, rose
+Pets: dog, zebra, parrot, cat
+
+Target category: Books
+
+Clues:
+1. Exactly one of orchid, Iliad, or Inferno is in house 1.
+2. The Aeneid is not in house 4.
+3. The tulip is in house 1.
+4. The parrot is not next to the guitar.
+5. The dog is in house 1.
+6. The flute is in house 2.
+7. The Iliad is somewhere to the left of the violin.
+8. The Iliad is in the same house as the zebra.
+9. The cat is somewhere to the right of the Iliad.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Inferno, Iliad, Aeneid, Odyssey
+
+================================================================================
+
+ZebraLogic #89 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Instruments: piano, trumpet, guitar, violin
+Drinks: milk, coffee, water, juice
+Plants: lily, daisy, hibiscus, orchid
+Pets: hamster, cat, dog, goldfish
+
+Target category: Plants
+
+Clues:
+1. There are exactly 2 houses between the dog and the goldfish.
+2. Exactly one of water, coffee, or orchid is in house 3.
+3. The hamster is somewhere to the right of the water.
+4. The juice is not in house 4.
+5. The lily is in house 1.
+6. The milk is not in house 4.
+7. Exactly one of dog, daisy, or coffee is in house 2.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+lily, daisy, orchid, hibiscus
+
+================================================================================
+
+ZebraLogic #90 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Books: Odyssey, Koran, Iliad
+Plants: orchid, carnation, daffodil
+Pets: parrot, cat, zebra
+
+Target category: Pets
+
+Clues:
+1. The zebra is somewhere to the right of the carnation.
+2. The parrot is not next to the zebra.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+parrot, cat, zebra
+
+================================================================================
+
+ZebraLogic #91 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Drinks: coffee, water
+Pets: cat, dog
+
+Target category: Pets
+
+Clues:
+1. The water is somewhere to the left of the cat.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+dog, cat
+
+================================================================================
+
+ZebraLogic #92 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Pets: parrot, zebra, hamster
+Drinks: coffee, water, milk
+Instruments: trumpet, violin, drums
+
+Target category: Instruments
+
+Clues:
+1. The zebra is in the same house as the violin.
+2. The trumpet is in house 1.
+3. The zebra is in house 3.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+trumpet, drums, violin
+
+================================================================================
+
+ZebraLogic #93 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of pets across all houses.
+
+Available Options:
+Pets: dog, hamster, goldfish
+Drinks: tea, water, milk
+Books: Beowulf, Iliad, Aeneid
+
+Target category: Pets
+
+Clues:
+1. The goldfish is immediately next to the tea.
+2. The dog is somewhere to the right of the tea.
+3. The goldfish is in house 1.
+
+Goal:
+Work out which pet is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+goldfish, hamster, dog
+
+================================================================================
+
+ZebraLogic #94 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Plants: carnation, orchid, daffodil
+Drinks: cola, tea, coffee
+Pets: dog, hamster, zebra
+
+Target category: Drinks
+
+Clues:
+1. Exactly one of tea, orchid, or coffee is in house 2.
+2. The hamster is somewhere to the right of the tea.
+3. The orchid is in house 2.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+tea, cola, coffee
+
+================================================================================
+
+ZebraLogic #95 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of plants across all houses.
+
+Available Options:
+Books: Beowulf, Koran, Inferno
+Pets: parrot, cat, dog
+Plants: fern, lily, rose
+
+Target category: Plants
+
+Clues:
+1. The dog is in house 1.
+2. The rose is in the same house as the Inferno.
+3. Exactly one of cat, Inferno, or dog is in house 3.
+4. The parrot is not next to the Inferno.
+5. The lily is in house 3.
+
+Goal:
+Work out which plant is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+fern, rose, lily
+
+================================================================================
+
+ZebraLogic #96 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Pets: parrot, cat, goldfish
+Books: Inferno, Bible, Aeneid
+Plants: rose, ivy, lily
+
+Target category: Books
+
+Clues:
+1. The goldfish is in house 3.
+2. Exactly one of Inferno, parrot, or cat is in house 3.
+3. The parrot is somewhere to the right of the Aeneid.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Aeneid, Bible, Inferno
+
+================================================================================
+
+ZebraLogic #97 — 4 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of instruments across all houses.
+
+Available Options:
+Plants: tulip, rose, sunflower, ivy
+Drinks: water, juice, milk, cola
+Books: Odyssey, Koran, Aeneid, Iliad
+Instruments: guitar, trumpet, violin, drums
+
+Target category: Instruments
+
+Clues:
+1. The Aeneid is somewhere to the left of the drums.
+2. The ivy is in house 2.
+3. The water is not in house 3.
+4. The violin is in house 1.
+5. Exactly one of juice, ivy, or rose is in house 3.
+6. The Aeneid is not next to the drums.
+7. The cola is in house 1.
+8. The rose is not in the same house as the milk.
+9. The trumpet is in the same house as the juice.
+
+Goal:
+Work out which instrument is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+violin, guitar, trumpet, drums
+
+================================================================================
+
+ZebraLogic #98 — 2 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Instruments: drums, trumpet
+Books: Iliad, Inferno
+
+Target category: Books
+
+Clues:
+1. The Iliad is not in house 2.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Iliad, Inferno
+
+================================================================================
+
+ZebraLogic #99 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of drinks across all houses.
+
+Available Options:
+Plants: sunflower, orchid, daffodil
+Pets: zebra, parrot, cat
+Drinks: cola, milk, tea
+
+Target category: Drinks
+
+Clues:
+1. The tea is somewhere to the right of the orchid.
+2. The milk is in house 2.
+
+Goal:
+Work out which drink is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+cola, milk, tea
+
+================================================================================
+
+ZebraLogic #100 — 3 houses
+
+This is a logic puzzle where you need to figure out which items from
+different categories are in each house. Houses are arranged in a row
+and numbered from left to right (1, 2, 3, etc.).
+You are given a set of clues that describe relationships between
+the items and their locations. Your goal is to determine the
+correct order of books across all houses.
+
+Available Options:
+Instruments: drums, violin, guitar
+Drinks: juice, milk, tea
+Books: Inferno, Iliad, Aeneid
+
+Target category: Books
+
+Clues:
+1. The tea is somewhere to the right of the Inferno.
+2. The Iliad is not next to the tea.
+3. The milk is in house 3.
+
+Goal:
+Work out which book is in each house (houses are numbered 1 left‑to‑right).You can think step-by-step as long as you want, but eventually you need to give your answer.Give you answer inside a \boxed{...} tag, and format your answer as a Python list.So the answer should be like this: \boxed{['item1', 'item2', 'item3', ...]}.
+
+Answer key (scroll past if you don't want spoilers)
+============================================================
+ 
+Inferno, Iliad, Aeneid
